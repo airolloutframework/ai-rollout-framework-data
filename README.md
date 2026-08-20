@@ -31,6 +31,7 @@ site:
 /docs/faq-troubleshooting.md        → https://airolloutframework.com/docs/faq-troubleshooting.md
 /docs/positioning-comparison.md     → https://airolloutframework.com/docs/positioning-comparison.md
 /docs/CHANGELOG.md                  → https://airolloutframework.com/docs/CHANGELOG.md
+/docs/mcp-capabilities.md           → https://airolloutframework.com/docs/mcp-capabilities.md
 ```
 
 This repository is the private source of truth that feeds the site's
@@ -52,6 +53,7 @@ directly; it is a downstream copy of what's here.
 | [faq-troubleshooting.md](faq-troubleshooting.md) | Common implementation questions and governance edge cases |
 | [positioning-comparison.md](positioning-comparison.md) | The mid-market / capability-first positioning, made explicit |
 | [CHANGELOG.md](CHANGELOG.md) | Dated log of major site and content updates |
+| [mcp-capabilities.md](mcp-capabilities.md) | The public MCP server's real, tested tools — no auth required |
 
 ## Structured data
 
@@ -99,6 +101,14 @@ schema):
 A machine-readable summary of the framework's offering, pricing,
 phases, and FAQ is also available as JSON:
 [https://airolloutframework.com/api/framework](https://airolloutframework.com/api/framework)
+
+## MCP server (agentic access)
+
+A public MCP server exposes 5 tools — framework overview, pricing, FAQ,
+knowledge-base search, and a real server-side AI Readiness Score
+assessment — callable with no authentication. See
+[mcp-capabilities.md](mcp-capabilities.md) for the endpoint, protocol
+details, and real example calls.
 
 ## Contact
 
