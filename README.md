@@ -90,7 +90,6 @@ schema):
     "https://www.indiehackers.com/AIRollout",
     "https://open.spotify.com/show/5Um4FuEcAKiIobGfQwXSMj",
     "https://podcasts.apple.com/us/podcast/the-ai-rollout-podcast/id1853884118",
-    "https://alternativeto.net/software/ai-rollout-framework/",
     "https://www.saashub.com/ai-adoption-for-managers-and-directors-alternatives",
     "https://github.com/airolloutframework",
     "https://www.youtube.com/@AIRolloutFramework"
