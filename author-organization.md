@@ -58,10 +58,10 @@ Learning Path (employee training bundle), and The AI Rollout Podcast.
 ### Origin and continuity
 
 Steve Buckner founded a technology services practice in 2006 — Blair
-Technology Services (blairts.com), a roughly two-decade-old IT
-consulting and training brand. AI Rollout Framework continues that
-work under a new, exact-match brand and domain, built specifically
-around AI capability rollout rather than general IT services.
+Technology Services, a roughly two-decade-old IT consulting and
+training brand. AI Rollout Framework continues that work under a new,
+exact-match brand and domain, built specifically around AI capability
+rollout rather than general IT services.
 
 The two sites are intentionally kept separate during AI Rollout
 Framework's build-out and maturation period — airolloutframework.com is
