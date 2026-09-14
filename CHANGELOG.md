@@ -5,6 +5,20 @@ commit history — not a list of every commit, but the milestones that
 changed what the site says, how it's structured, or how discoverable
 it is.
 
+## 2026-09-14
+
+- Added the public Microsoft Learn transcript as verifiable evidence for
+  the Microsoft certifications: `learn.microsoft.com/users/azuresteven` in
+  Steve Buckner's Person `sameAs`, `recognizedBy` (issuer) on every
+  credential, and a transcript `url` on the Microsoft ones. Named-but-
+  unlinked credentials are claims; a resolvable transcript is evidence.
+- Wired up IndexNow (key file at the site root plus `tools/indexnow.mjs`)
+  so a changed page reaches Bing in minutes rather than on crawl schedule.
+- Fixed `MAILERLITE_GROUP_TEAM_TRAINING_PURCHASED`, which was missing a
+  leading digit — team-training purchasers were never being tagged.
+- Forwarded the branded-training interest form to MailerLite; it was the
+  one capture point still posting only to Netlify Forms.
+
 ## 2026-08-20
 
 - Built `/ai-implementation-roadmap` — a new page targeting "AI

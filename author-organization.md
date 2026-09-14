@@ -9,13 +9,15 @@ of *The AI Rollout Podcast*
 **Job title:** Cloud Systems Engineer
 **Profile:** [airolloutframework.com/about](https://airolloutframework.com/about)
 **LinkedIn:** [linkedin.com/in/it-steve](https://www.linkedin.com/in/it-steve/)
+**Microsoft Learn:** [learn.microsoft.com/users/azuresteven](https://learn.microsoft.com/en-us/users/azuresteven/)
 
 40+ years in IT since 1986, spanning infrastructure, Microsoft training,
 cloud architecture, and enterprise systems. Currently a Cloud Systems
 Engineer in a Microsoft enterprise environment, with hands-on enterprise
 AI governance experience.
 
-**Certifications:**
+**Certifications** (Microsoft credentials verifiable on the
+[public Microsoft Learn transcript](https://learn.microsoft.com/en-us/users/azuresteven/transcript/dg129ho6ko96o92)):
 - Project Management Professional (PMP)
 - Microsoft Certified Trainer (MCT)
 - Azure Solutions Architect Expert
