@@ -8,7 +8,7 @@ Source: [airolloutframework.com/about](https://airolloutframework.com/about)
 of *The AI Rollout Podcast*
 **Job title:** Cloud Systems Engineer
 **Profile:** [airolloutframework.com/about](https://airolloutframework.com/about)
-**LinkedIn:** [linkedin.com/in/it-steve](https://www.linkedin.com/in/it-steve/)
+**LinkedIn:** [linkedin.com/in/it-steve](https://www.linkedin.com/in/it-steve)
 **Microsoft Learn:** [learn.microsoft.com/users/azuresteven](https://learn.microsoft.com/en-us/users/azuresteven/)
 
 40+ years in IT since 1986, spanning infrastructure, Microsoft training,
@@ -51,6 +51,17 @@ organizational communications, customer education.
 **Founded:** 2006
 **Contact:** info@airolloutframework.com
 **Site:** [airolloutframework.com](https://airolloutframework.com)
+
+**Verified profiles** (the Organization `sameAs` set):
+- Product Hunt: https://www.producthunt.com/products/ai-rollout-framework
+- Crunchbase: https://www.crunchbase.com/organization/ai-rollout-framework
+- LinkedIn: https://www.linkedin.com/company/ai-rollout-framework
+- Indie Hackers: https://www.indiehackers.com/AIRollout
+- Spotify: https://open.spotify.com/show/5Um4FuEcAKiIobGfQwXSMj
+- Apple Podcasts: https://podcasts.apple.com/us/podcast/the-ai-rollout-podcast/id1853884118
+- SaaSHub: https://www.saashub.com/ai-adoption-for-managers-and-directors-alternatives
+- GitHub: https://github.com/airolloutframework
+- YouTube: https://www.youtube.com/@AIRolloutFramework
 
 AI Rollout Framework provides structured AI adoption resources for
 managers and directors at small and mid-sized organizations — the

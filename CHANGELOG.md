@@ -5,6 +5,20 @@ commit history — not a list of every commit, but the milestones that
 changed what the site says, how it's structured, or how discoverable
 it is.
 
+## 2026-09-14 (later)
+
+- Published three long-tail resource pages, each chosen from DataForSEO
+  difficulty and volume rather than guesswork: `/resources/ai-adoption-challenges/`
+  (KD 5), `/resources/ai-adoption-curve/` (KD 17), and
+  `/resources/ai-adoption-strategy/` (KD 24).
+- The strategy page states the strategy/framework/roadmap distinction
+  explicitly, because `/ai-adoption-framework` and `/ai-implementation-roadmap`
+  already hold the neighbouring terms and the three would otherwise compete
+  for the same queries.
+- `/resources/ai-rollout-framework-guide/` already carried a "Common AI
+  adoption challenges" section, so it now defers to the dedicated page rather
+  than splitting the phrase between two URLs.
+
 ## 2026-09-14
 
 - Added the public Microsoft Learn transcript as verifiable evidence for
