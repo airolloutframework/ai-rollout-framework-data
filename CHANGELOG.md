@@ -5,6 +5,26 @@ commit history — not a list of every commit, but the milestones that
 changed what the site says, how it's structured, or how discoverable
 it is.
 
+## 2026-09-25
+
+- Released the Executive Audio Masterclass (59 minutes, 11 chaptered
+  segments) as a gated Executive Suite download: M4A with chapter markers
+  plus an MP3 fallback, served from Blob storage after the members
+  session check. Sales copy, `api/framework.json`, `api/faq.json`,
+  `llms.txt` and `llms-full.txt` now describe it as included rather than
+  upcoming.
+
+## 2026-09-23
+
+- Added the Executive Suite: a $199 Framework + Executive Suite bundle
+  and a $100 upgrade for existing framework owners, with a new
+  `/executive` page (FAQPage schema written around the AI policy
+  template searches that DataForSEO showed real, low-difficulty demand
+  for). Pricing added to `api/framework.json`, `api/faq.json`, the MCP
+  `get_pricing` tool, `llms.txt` and `llms-full.txt`.
+- Paid Executive Suite files are served by a session-checked function
+  from outside the public site, not from `/course-files/`.
+
 ## 2026-09-14 (later)
 
 - Published three long-tail resource pages, each chosen from DataForSEO

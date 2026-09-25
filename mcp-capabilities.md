@@ -77,13 +77,17 @@ Source: `api/framework.json` (the same file backing the existing
 
 ### 2. `get_pricing`
 
-Returns current pricing and checkout URLs for both products.
+Returns current pricing and checkout URLs for every product: the
+framework, the Framework + Executive Suite bundle (with its $100 upgrade
+for existing framework owners), and the Learning Path.
 **Highest drift-risk tool** — sourced live from `api/framework.json`, the
 same file flagged for inclusion in any future pricing-consistency audit.
 
 **Input:** none (`{}`)
 
-**Example call and real response** (captured live, 2026-08-20):
+**Example call and real response** (captured live, 2026-08-20 — before
+the Executive Suite was added; the response now also carries an
+`executiveSuite` object, taken verbatim from `api/framework.json`):
 ```json
 // Request
 {"jsonrpc":"2.0","id":2,"method":"tools/call","params":{"name":"get_pricing","arguments":{}}}

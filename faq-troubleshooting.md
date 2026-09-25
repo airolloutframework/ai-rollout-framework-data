@@ -117,10 +117,11 @@ See [pricing-and-tiers.md](pricing-and-tiers.md) for current, verified
 figures.
 
 **Is there a money-back guarantee?**
-Yes, for the $99 framework: if you work through it and don't feel it
-was worth the investment, contact within 30 days for a full refund. No
-questions, no hoops. (No guarantee is currently published for the
-$24.99 Learning Path bundle.)
+Yes. The $99 framework, the $199 Framework + Executive Suite and the
+$100 Executive Suite upgrade all carry it: if you work through it and
+don't feel it was worth the investment, contact within 30 days for a
+full refund. No questions, no hoops. (No guarantee is currently
+published for the $24.99 Learning Path bundle.)
 
 **How is the Learning Path different from the Framework?**
 The AI Capability Rollout Framework is a structured 90-day system for
@@ -129,3 +130,20 @@ governance, pilots, and measurement. The Complete AI Learning Path is
 the employee-facing companion: standalone practical skills training for
 the people actually using AI day to day. It does not tie into the
 90-day framework's phase structure.
+
+**What is the AI Executive Suite and how much does it cost?**
+The AI Executive Suite is the board-level add-on to the AI Capability
+Rollout Framework: an editable Board Briefing Pack, the AI ROI & Impact
+Calculator, the AI Governance & Policy Kit, 90-day department
+roadmaps and a 59-minute Executive Audio Masterclass. It is sold only as a bundle with the framework for $199
+one-time, with lifetime access and a 30-day money-back guarantee.
+Existing framework owners can upgrade for $100. See
+[pricing-and-tiers.md](pricing-and-tiers.md).
+
+**How is the Executive Suite different from the Framework?**
+The $99 framework is the complete 90-day system for leading an AI
+rollout. The Executive Suite is for the leader who also has to take the
+programme to a board or leadership team: it adds the investment case,
+the ROI model, a full set of AI policy templates and department-by-
+department plans. The policy templates are not legal advice and should
+be reviewed by counsel before adoption.

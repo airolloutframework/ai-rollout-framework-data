@@ -1,7 +1,7 @@
 [
   {
     "question": "Who is this framework built for?",
-    "answer": "Built for managers and directors at small and mid-sized organizations who are responsible for workflows, teams, and outcomes — and need to introduce AI with structure rather than letting it spread without guardrails.",
+    "answer": "Built for managers and directors at small and mid-sized organizations who are responsible for workflows, teams, and outcomes - and need to introduce AI with structure rather than letting it spread without guardrails.",
     "source_url": "https://airolloutframework.com/"
   },
   {
@@ -11,12 +11,12 @@
   },
   {
     "question": "Do I need technical knowledge?",
-    "answer": "No. The framework is intentionally non-technical. It focuses on judgment, governance awareness, workflow fit, and practical organizational capability — not coding or engineering.",
+    "answer": "No. The framework is intentionally non-technical. It focuses on judgment, governance awareness, workflow fit, and practical organizational capability - not coding or engineering.",
     "source_url": "https://airolloutframework.com/"
   },
   {
     "question": "What if we're just starting with AI?",
-    "answer": "The readiness assessment will establish your baseline and identify your entry point into the framework. Most organizations benefit from starting at the beginning regardless of where they think they are — foundational alignment prevents costly course corrections later.",
+    "answer": "The readiness assessment will establish your baseline and identify your entry point into the framework. Most organizations benefit from starting at the beginning regardless of where they think they are - foundational alignment prevents costly course corrections later.",
     "source_url": "https://airolloutframework.com/"
   },
   {
@@ -30,11 +30,6 @@
     "source_url": "https://airolloutframework.com/"
   },
   {
-    "question": "How do I introduce AI to my team responsibly?",
-    "answer": "Responsible AI introduction starts with three things before any tool goes live: defined guardrails (what's permitted and what isn't), assigned ownership (one named person accountable), and a measurable baseline. The AI Capability Rollout Framework builds all three into Stage 1 before your first pilot begins. That's what separates structured adoption from ungoverned experimentation.",
-    "source_url": "https://airolloutframework.com/"
-  },
-  {
     "question": "Is there a money-back guarantee?",
     "answer": "Yes. If you work through the framework and don't feel it was worth your investment, contact us within 30 days for a full refund. No questions, no hoops.",
     "source_url": "https://airolloutframework.com/"
@@ -45,13 +40,38 @@
     "source_url": "https://airolloutframework.com/"
   },
   {
-    "question": "Who is the AI Capability Rollout Framework built for?",
-    "answer": "It is built for managers and directors at small and mid-sized organizations — typically 10 to 2,000 employees — who are responsible for workflows, teams, and outcomes. Common titles include Director of Operations, VP of Operations, Head of Process Improvement, and Operational Excellence Manager. The framework does not require a technical or coding background.",
+    "question": "How do I introduce AI to my team responsibly?",
+    "answer": "Responsible AI introduction starts with three things before any tool goes live: defined guardrails (what's permitted and what isn't), assigned ownership (one named person accountable), and a measurable baseline. The AI Capability Rollout Framework builds all three into Stage 1 before your first pilot begins. That's what separates structured adoption from ungoverned experimentation.",
+    "source_url": "https://airolloutframework.com/"
+  },
+  {
+    "question": "What exactly is inside the framework?",
+    "answer": "13 numbered implementation tools mapped across three stage-gate phases, video guidance at every stage, internal discussion guides for leadership alignment, and access to the AI Capability Community. The tools include: AI Readiness Score, Baseline Capability Worksheet, Before/After Capability Dashboard, Stage 1 Leadership Check-In, Workflow Evaluation Checklist, AI Pilot Planning Template, AI Pilot Approval Two-Pager, Pilot Metrics Tracker, AI Pilot Results Summary, Executive Briefing Builder (web tool), Executive Briefing PowerPoint Template, 90-Day AI Capability Roadmap, and a Tools & Timeline Reference.",
     "source_url": "https://airolloutframework.com/framework"
   },
   {
-    "question": "What is included in the AI Capability Rollout Framework?",
-    "answer": "The framework includes 13 implementation tools: AI Readiness Score, Baseline Capability Worksheet, Before/After Capability Dashboard, Stage 1 Leadership Check-In, Workflow Evaluation Checklist, AI Pilot Planning Template, AI Pilot Approval Two-Pager, Pilot Metrics Tracker, AI Pilot Results Summary, Executive Briefing Builder, Executive Briefing PowerPoint Template, 90-Day AI Capability Roadmap, and a Tools & Timeline Reference. Also includes video guidance, discussion guides, and access to the AI Capability Community.",
+    "question": "How much time does it take each week?",
+    "answer": "The framework is designed to be worked through at your own pace alongside your existing responsibilities. Most people spend 2–3 hours per week on the modules, with additional time for internal implementation activities. The 90-day structure is a recommended timeline, not a strict deadline.",
+    "source_url": "https://airolloutframework.com/framework"
+  },
+  {
+    "question": "Do I need technical knowledge or a technical team?",
+    "answer": "No. The framework is intentionally non-technical. It focuses on governance, judgment, workflow analysis, and organizational capability — not engineering or coding. If you can manage a team and lead a project, you can lead this rollout.",
+    "source_url": "https://airolloutframework.com/framework"
+  },
+  {
+    "question": "What if my organization is just starting with AI?",
+    "answer": "The framework is designed to meet you where you are. The free AI Readiness Score establishes your baseline and identifies your entry point. Early-stage organizations benefit most from Stage 1 — getting the governance foundation right before any broader adoption happens prevents costly course corrections later.",
+    "source_url": "https://airolloutframework.com/framework"
+  },
+  {
+    "question": "Is this a 90-day AI adoption plan for small businesses?",
+    "answer": "Yes. The AI Capability Rollout Framework is a structured 90-day AI adoption plan built specifically for small and mid-sized organizations — typically 10 to 2,000 employees — where a manager or director is responsible for how AI gets introduced. It gives you a concrete, phase-by-phase path to roll out AI to your team without needing a dedicated AI function or technical background to lead it.",
+    "source_url": "https://airolloutframework.com/framework"
+  },
+  {
+    "question": "Who is the AI Capability Rollout Framework built for?",
+    "answer": "It is built for managers and directors at small and mid-sized organizations — typically 10 to 2,000 employees — who are responsible for workflows, teams, and outcomes. Common titles include Director of Operations, VP of Operations, Head of Process Improvement, and Operational Excellence Manager. The framework does not require a technical or coding background.",
     "source_url": "https://airolloutframework.com/framework"
   },
   {
@@ -65,9 +85,59 @@
     "source_url": "https://airolloutframework.com/framework"
   },
   {
-    "question": "Is the AI Capability Rollout Framework a one-time purchase?",
-    "answer": "Yes. $99 is a one-time payment with lifetime access to all current content and future framework updates. There is no subscription, no renewal fee, and no hidden charges.",
-    "source_url": "https://airolloutframework.com/framework"
+    "question": "What should an AI usage policy include?",
+    "answer": "At minimum: its scope (people, tools and devices, including AI features inside existing software); a list of approved tools with a named owner; rules for which data may be used with which tools; concrete examples of acceptable and prohibited uses; human review before AI output is relied on or leaves the organization; a way to report mistakes quickly and without blame; and who owns the policy and when it is next reviewed. Keep it short and plain enough that a new hire knows what to do on their first day.",
+    "source_url": "https://airolloutframework.com/executive"
+  },
+  {
+    "question": "What makes a good AI governance policy template?",
+    "answer": "A good AI governance policy template is specific enough to act on and honest about what it cannot decide for you. Look for concrete rules on data and approved tools rather than principles alone, clearly marked placeholders for the choices only your organization can make, guidance on those choices, and approval and review steps. It should also say plainly that it is a template, not legal advice, and send you to counsel for anything that depends on your jurisdiction or industry.",
+    "source_url": "https://airolloutframework.com/executive"
+  },
+  {
+    "question": "What does a corporate AI policy example look like?",
+    "answer": "A practical corporate AI policy is usually a small set of documents rather than one. An acceptable use policy that every employee reads and signs; data guidelines that say which information can go into which AI tool; and a vendor assessment process that decides how a tool becomes approved. The AI Governance & Policy Kit in the Executive Suite follows that structure, as three editable Word templates designed to be adopted together.",
+    "source_url": "https://airolloutframework.com/executive"
+  },
+  {
+    "question": "Can I use a generative AI policy template as-is?",
+    "answer": "No, and a template that suggests otherwise should worry you. Every organization has to decide which tools it approves, how it classifies its data, who owns the policy and what its legal obligations are in its own jurisdiction and industry. A good template makes those decisions quick by marking each one, but you still make them, and qualified counsel should review the adapted policy before you adopt it.",
+    "source_url": "https://airolloutframework.com/executive"
+  },
+  {
+    "question": "What kind of AI training is available for leaders?",
+    "answer": "Broadly three kinds. University executive education programs cover AI strategy over several days or weeks. Short introductory online courses build general AI literacy. And practical, self-paced programs are built around leading a real rollout. The AI Capability Rollout Framework is the practical kind: AI training for executives and managers who need to move from talk to execution, with video guidance through a 90-day, stage-gated rollout. The Executive Suite adds a 59-minute audio masterclass and the tools to present the programme to a board or leadership team.",
+    "source_url": "https://airolloutframework.com/executive"
+  },
+  {
+    "question": "What is included in the AI Executive Suite?",
+    "answer": "The complete $99 AI Capability Rollout Framework, plus the Board Briefing Pack (an 18-slide editable PowerPoint investment case), the AI ROI & Impact Calculator (a web tool), the AI Governance & Policy Kit (three editable Word templates: an acceptable use policy, data safety guidelines and a vendor assessment checklist), 90-day execution roadmaps for Sales, Operations, HR, Marketing and IT, and the Executive Audio Masterclass (59 minutes of audio in 11 chaptered segments).",
+    "source_url": "https://airolloutframework.com/executive"
+  },
+  {
+    "question": "How is the Executive Suite different from the $99 framework?",
+    "answer": "The $99 framework is the complete 90-day system for leading an AI rollout: governance, a controlled pilot, measurement, and a briefing on the pilot's results. The Executive Suite is for the leader who also has to take the whole programme to a board or leadership team. It adds the investment case, the ROI model, a full set of AI policy templates and department-by-department plans. The Executive Suite is only sold together with the framework.",
+    "source_url": "https://airolloutframework.com/executive"
+  },
+  {
+    "question": "I already own the framework. Can I upgrade?",
+    "answer": "Yes. Framework owners can add the Executive Suite for $100 instead of $199. Sign in to the members area with the email you bought the framework with, then choose the upgrade. It appears in your members area as soon as payment completes.",
+    "source_url": "https://airolloutframework.com/executive"
+  },
+  {
+    "question": "Is the AI policy template kit legal advice?",
+    "answer": "No. The templates are a starting point for general information. They are deliberately jurisdiction-neutral, so where laws vary they use marked placeholders instead of naming specific regulations. Every template says so on its first page and in its footer. Have qualified legal counsel review your adapted policies before you adopt them.",
+    "source_url": "https://airolloutframework.com/executive"
+  },
+  {
+    "question": "Does the AI ROI calculator use industry benchmarks?",
+    "answer": "No. It calculates from your own inputs: people in scope, hourly cost, hours saved and adoption for each department, and your programme costs. It comes pre-filled with a deliberately conservative example so you can see how it works. Use hours saved measured in your own pilot, and apply the confidence adjustment so the case you present is one you can defend.",
+    "source_url": "https://airolloutframework.com/executive"
+  },
+  {
+    "question": "Is there a money-back guarantee on the $199 Executive Suite?",
+    "answer": "Yes, on the same terms as the framework. If you work through it and don't feel it was worth your investment, contact us within 30 days for a full refund. The same applies to the $100 upgrade.",
+    "source_url": "https://airolloutframework.com/executive"
   },
   {
     "question": "What is The Complete AI Learning Path (4-Course Master Bundle)?",
@@ -106,7 +176,7 @@
   },
   {
     "question": "Can I purchase this for my whole team?",
-    "answer": "Yes. If you're equipping a team or organization, use the form on this page to share a few details — bulk pricing and organization-branded versions are both available for larger teams.",
+    "answer": "Yes. If you're equipping a team or organization, use the form above to share a few details — bulk pricing and organization-branded versions are both available for larger teams.",
     "source_url": "https://airolloutframework.com/employee-training"
   },
   {
@@ -191,17 +261,22 @@
   },
   {
     "question": "What is AI readiness in the workplace?",
-    "answer": "AI readiness in the workplace is an organization's capacity to adopt artificial intelligence tools and workflows with structure, governance, and measurable capability. It covers four dimensions: strategic alignment and leadership clarity, governance and risk awareness, workflow integration readiness, and team capability and skill development.",
+    "answer": "AI readiness in the workplace is an organization's capacity to adopt AI tools and workflows with structure, governance, and measurable capability. It covers four dimensions: strategic alignment and leadership clarity, governance and risk awareness, workflow integration readiness, and team capability and skill development.",
     "source_url": "https://airolloutframework.com/ai-readiness-in-the-workplace"
   },
   {
     "question": "Why does AI readiness matter for managers?",
-    "answer": "Managers are responsible for workflows, teams, and outcomes. When AI adoption happens without structure, the risks — ungoverned data use, unreviewed outputs, unclear ownership — fall on those responsible for operational decisions. AI readiness gives managers the framework to lead adoption rather than react to it.",
+    "answer": "Managers are responsible for workflows, teams, and outcomes. When AI adoption happens without structure, the risks - ungoverned data use, unreviewed outputs, unclear ownership - fall on those responsible for operational decisions. AI readiness gives managers the framework to lead adoption rather than react to it.",
     "source_url": "https://airolloutframework.com/ai-readiness-in-the-workplace"
   },
   {
     "question": "What are the four pillars of organizational AI readiness?",
-    "answer": "The four pillars of organizational AI readiness are: (1) Strategy and Leadership Clarity — whether leadership has defined why AI is being introduced and who owns it; (2) Governance and Risk Awareness — whether basic guardrails exist around data handling, output review, and safe experimentation; (3) Workflow Integration — whether the organization can identify and pilot AI in specific workflows with measurable success criteria; and (4) Capability and Skill Development — whether the team has the practical confidence and shared understanding to use AI responsibly.",
+    "answer": "The four pillars are: (1) Strategy and Leadership Clarity - whether leadership has defined why AI is being introduced and who owns it; (2) Governance and Risk Awareness - whether basic guardrails exist around data handling and output review; (3) Workflow Integration - whether the organization can identify and pilot AI in specific workflows; and (4) Capability and Skill Development - whether the team has the practical confidence to use AI responsibly.",
+    "source_url": "https://airolloutframework.com/ai-readiness-in-the-workplace"
+  },
+  {
+    "question": "What is the difference between AI readiness and AI adoption?",
+    "answer": "AI adoption is what your organization is doing with AI right now. AI readiness is whether your organization can support that adoption with structure, governance, and measurable capability. Adoption can happen without readiness - and often does. Readiness ensures that adoption is governed, sustainable, and leads to real capability rather than scattered, ungoverned use.",
     "source_url": "https://airolloutframework.com/ai-readiness-in-the-workplace"
   },
   {
@@ -211,27 +286,22 @@
   },
   {
     "question": "What are the three stages of organizational AI readiness?",
-    "answer": "The three stages of organizational AI readiness are: (1) Early Exploration — AI curiosity exists but ownership, guardrails, and workflow alignment are still forming; (2) Developing Capability — experimentation is real but governance and repeatable processes are not yet formalized; and (3) Operational Readiness — the organization has sufficient maturity to formalize AI adoption and expand responsibly.",
-    "source_url": "https://airolloutframework.com/ai-readiness-in-the-workplace"
-  },
-  {
-    "question": "What is the difference between AI readiness and AI adoption?",
-    "answer": "AI adoption refers to the act of using AI tools inside an organization. AI readiness refers to the organizational capacity to support that adoption with structure, governance, and measurable capability. Adoption can happen without readiness — and often does. Readiness ensures that adoption is governed, sustainable, and leads to real capability rather than scattered, ungoverned use.",
+    "answer": "The three stages of organizational AI readiness are: (1) Early Exploration - AI curiosity exists but ownership, guardrails, and workflow alignment are still forming; (2) Developing Capability - experimentation is real but governance and repeatable processes are not yet formalized; and (3) Operational Readiness - the organization has sufficient maturity to formalize AI adoption and expand responsibly.",
     "source_url": "https://airolloutframework.com/ai-readiness-in-the-workplace"
   },
   {
     "question": "How do I create an AI governance policy for my organization?",
-    "answer": "An AI governance policy for a small or mid-sized organization should define which AI tools are approved for use, how data is handled, who reviews AI-generated outputs before they're acted on, and who owns accountability when things go wrong. It doesn't need to be complex — a clear one-page policy with defined guardrails is more effective than a lengthy document no one reads. The AI Capability Rollout Framework includes governance templates designed for non-technical managers to implement immediately.",
+    "answer": "An AI governance policy for a small or mid-sized organization should define which AI tools are approved for use, how data is handled, who reviews AI-generated outputs before they're acted on, and who owns accountability when things go wrong. It doesn't need to be complex - a clear one-page policy with defined guardrails is more effective than a lengthy document no one reads. See how to set AI guardrails in the workplace for a practical template.",
     "source_url": "https://airolloutframework.com/ai-readiness-in-the-workplace"
   },
   {
     "question": "What is an AI readiness assessment for organizations?",
-    "answer": "An AI readiness assessment measures an organization's current capacity to adopt AI responsibly across four dimensions: strategy and leadership clarity, governance and risk awareness, workflow integration, and team capability. The free AI Readiness Score at airolloutframework.com uses 16 structured questions to produce an instant score, identify the weakest pillar, and recommend a stage-appropriate path forward.",
+    "answer": "An AI readiness assessment measures an organization's current capacity to adopt AI responsibly across four dimensions: strategy and leadership clarity, governance and risk awareness, workflow integration, and team capability. The free AI Readiness Score uses 16 structured questions to produce an instant score, identify the weakest pillar, and recommend a stage-appropriate path forward.",
     "source_url": "https://airolloutframework.com/ai-readiness-in-the-workplace"
   },
   {
     "question": "How can a manager lead AI adoption without a technical background?",
-    "answer": "Managers don't need technical expertise to lead AI adoption — they need structured judgment. That means defining governance before tools spread, identifying workflows where AI adds value with manageable risk, and building a shared understanding across the team. The AI Capability Rollout Framework is designed specifically for this: a 90-day system focused on leadership, governance, and workflow integration — not coding or engineering.",
+    "answer": "Managers don't need technical expertise to lead AI adoption - they need structured judgment. That means defining governance before tools spread, identifying workflows where AI adds value with manageable risk, and building a shared understanding across the team. The AI Capability Rollout Framework is designed specifically for this: a 90-day system focused on leadership, governance, and workflow integration - not coding or engineering.",
     "source_url": "https://airolloutframework.com/ai-readiness-in-the-workplace"
   },
   {
@@ -261,33 +331,78 @@
   },
   {
     "question": "I completed the AI Readiness Score but didn't receive my report. What should I do?",
-    "answer": "Check your spam or junk folder first. Reports are delivered via email immediately after submission. If you still don't see it after 15 minutes, email info@airolloutframework.com with the email address you used and we will resend it manually.",
+    "answer": "Check your spam or junk folder first - reports are delivered immediately after submission. If you still don't see it after 15 minutes, email info@airolloutframework.com with the email address you used and we'll resend it manually within a few hours.",
     "source_url": "https://airolloutframework.com/contact"
   },
   {
-    "question": "How do I access the AI Capability Rollout Framework after enrolling?",
-    "answer": "Checkout and course delivery are handled securely through Stripe. After enrollment you will receive a confirmation email with access to the framework and its tools. If you do not receive your confirmation within 30 minutes check your spam folder or email info@airolloutframework.com.",
-    "source_url": "https://airolloutframework.com/contact"
-  },
-  {
-    "question": "Can I get a refund?",
-    "answer": "Yes. The AI Capability Rollout Framework comes with a 30-day satisfaction guarantee. If the framework is not the right fit, email info@airolloutframework.com within 30 days of purchase and we will make it right.",
+    "question": "How do I access the framework after enrolling?",
+    "answer": "Checkout and course delivery are handled securely through Stripe. After enrollment you'll receive a confirmation email with access to the framework and its tools. If you don't receive your confirmation within 30 minutes check your spam folder or email info@airolloutframework.com with your enrollment receipt.",
     "source_url": "https://airolloutframework.com/contact"
   },
   {
     "question": "How do I join the AI Capability Community?",
-    "answer": "The AI Capability Community is included with your framework enrollment. After enrolling you will receive an invitation link to join the community. If you did not receive your invitation email info@airolloutframework.com.",
+    "answer": "The AI Capability Community is included with your framework enrollment at no additional cost. After enrolling you'll receive an invitation link to join. The community includes spaces for AI in the Workplace, Workflows & Use Cases, Pilots & Implementation, Governance & Guardrails, and more. If you didn't receive your invite email info@airolloutframework.com .",
+    "source_url": "https://airolloutframework.com/contact"
+  },
+  {
+    "question": "Can I get a refund?",
+    "answer": "Yes. The AI Capability Rollout Framework comes with a 30-day satisfaction guarantee. If the framework isn't the right fit, email info@airolloutframework.com within 30 days of purchase and we'll make it right - no complicated process, no runaround.",
     "source_url": "https://airolloutframework.com/contact"
   },
   {
     "question": "Is this framework right for my organization?",
-    "answer": "The best way to find out is the free AI Readiness Score — a 3-5 minute assessment that tells you exactly where your organization stands across all four capability pillars. It is free, instant, and gives you a clear picture of whether the framework is the right next step.",
+    "answer": "The best way to find out is the free AI Readiness Score - a 3-5 minute assessment that tells you exactly where your organization stands across all four capability pillars. It's free, instant, and gives you a clear picture of whether the framework is the right next step.",
     "source_url": "https://airolloutframework.com/contact"
   },
   {
     "question": "Do you offer group or organizational pricing?",
-    "answer": "The standard price is $99 one-time per seat. If you are looking to enroll multiple people from the same organization, email info@airolloutframework.com with the number of seats you need and we will work something out.",
+    "answer": "The standard price is $99 one-time per seat. If you're looking to enroll multiple people from the same organization email info@airolloutframework.com with the number of seats you need and we'll work something out. For leaders who also need to present the rollout to a board, the Framework + Executive Suite is $199 one-time.",
     "source_url": "https://airolloutframework.com/contact"
+  },
+  {
+    "question": "Why does the framework use a 90-day timeframe?",
+    "answer": "90 days gives organizations enough time to move from initial clarity to early adoption and measurable outcomes, without rushing implementation.",
+    "source_url": "https://airolloutframework.com/90-day-framework-overview"
+  },
+  {
+    "question": "What are the 3 stages of the framework?",
+    "answer": "Stage 1 (Clarity & Guardrails), Stage 2 (Controlled Pilot), Stage 3 (Measure & Scale).",
+    "source_url": "https://airolloutframework.com/90-day-framework-overview"
+  },
+  {
+    "question": "Is this framework about speed or capability?",
+    "answer": "Capability. The framework prioritizes safe, deliberate, structured adoption over moving fast.",
+    "source_url": "https://airolloutframework.com/90-day-framework-overview"
+  },
+  {
+    "question": "What is an AI adoption framework?",
+    "answer": "An AI adoption framework is a structured system for introducing AI into an organization with defined phases, guardrails, and measurable milestones — instead of letting usage spread informally, tool by tool, without anyone accountable for the outcome. The AI Capability Rollout Framework is a capability-first example: three stage-gated phases over 90 days, built around four capability pillars, with a leadership decision gate at each phase boundary.",
+    "source_url": "https://airolloutframework.com/ai-adoption-framework"
+  },
+  {
+    "question": "What's the difference between an AI adoption framework and an AI strategy?",
+    "answer": "An AI strategy is usually a statement of intent — why the organization is pursuing AI and what it hopes to achieve. An AI adoption framework is the operating system underneath it: the actual sequence of phases, ownership, guardrails, and decision gates that turn that intent into a governed rollout. A strategy without a framework tends to stay a slide deck; a framework is what makes the strategy executable. As Episode 10 puts it, if leadership is asking for a strategy while three departments are already using AI on their own, neither a strategy document nor a lockdown is where you start — you start by naming an owner and getting a real baseline.",
+    "source_url": "https://airolloutframework.com/ai-adoption-framework"
+  },
+  {
+    "question": "How long does AI adoption take for a mid-market company?",
+    "answer": "Using a structured, capability-first framework, a mid-market company can move one workflow from idea to documented, leadership-approved capability in about 90 days — split across a 30-day clarity and guardrails phase, a 30-day controlled pilot, and a 30-day measure-and-scale phase. That's enough time for a first defensible win, not a full organizational transformation; scaling to additional workflows happens in repeated 90-day cycles after that.",
+    "source_url": "https://airolloutframework.com/ai-adoption-framework"
+  },
+  {
+    "question": "Is capability-first different from technology-first AI adoption?",
+    "answer": "Yes. A technology-first approach starts by choosing a tool or platform and works backward to justify it. A capability-first approach starts with organizational readiness — ownership, governance, workflow fit, and team skill — and only then selects the tool that fits. Capability-first adoption is slower to the first tool decision but far less likely to stall six months in, because the tool was never the actual bottleneck — see how that played out in practice in Episode 10's walkthrough of a real 11-person, ungoverned rollout.",
+    "source_url": "https://airolloutframework.com/ai-adoption-framework"
+  },
+  {
+    "question": "Do you need a technical team to use an AI adoption framework?",
+    "answer": "No. A capability-first AI adoption framework is built for managers and directors — not AI engineers or a dedicated data science team. The AI Capability Rollout Framework, for example, is designed for operations leaders at organizations of roughly 10 to 2,000 employees, with no coding or technical background required to lead it.",
+    "source_url": "https://airolloutframework.com/ai-adoption-framework"
+  },
+  {
+    "question": "What are examples of AI adoption framework phases?",
+    "answer": "In the AI Capability Rollout Framework, the phases are: Establish Clarity & Guardrails (readiness baseline, governance, named owner), Introduce a Controlled Pilot (one measured workflow with leadership approval), and Measure, Formalize & Scale (before/after results, executive briefing, scaling roadmap). Each phase ends in a written go/no-go decision rather than an open-ended rollout.",
+    "source_url": "https://airolloutframework.com/ai-adoption-framework"
   },
   {
     "question": "What is the 5-Minute AI Audit?",
@@ -315,6 +430,66 @@
     "source_url": "https://airolloutframework.com/resources/5-minute-ai-audit/"
   },
   {
+    "question": "What is the biggest challenge in AI adoption?",
+    "answer": "Unclear ownership. In most organizations that stall, AI adoption is everyone's interest and nobody's job. Without a named owner, no one is accountable for defining what data is in bounds, deciding which workflow gets tested first, or judging whether a pilot worked. Every other challenge gets harder while this one is unresolved, because there is no one whose responsibility it is to resolve them.",
+    "source_url": "https://airolloutframework.com/resources/ai-adoption-challenges/"
+  },
+  {
+    "question": "Why do most AI adoption projects fail?",
+    "answer": "Because they start with a tool instead of a workflow. A tool-first rollout produces scattered individual experiments that cannot be measured, compared, or repeated. When leadership asks what the organization got for it, there is no baseline to compare against and no evidence to show, so the effort loses support and quietly stops. The failure is structural rather than technical - the technology usually worked fine.",
+    "source_url": "https://airolloutframework.com/resources/ai-adoption-challenges/"
+  },
+  {
+    "question": "How do you overcome resistance to AI adoption?",
+    "answer": "Treat the resistance as information rather than an obstacle. The people pushing back are often the ones who understand the work best and can see where AI output would be wrong in ways a newcomer would miss. Give them the review standard to own. Resistance that gets a defined role in quality control becomes the strongest safeguard in the rollout, and the objection usually settles once the concern has somewhere to go.",
+    "source_url": "https://airolloutframework.com/resources/ai-adoption-challenges/"
+  },
+  {
+    "question": "What are the five stages of the AI adoption curve?",
+    "answer": "The five groups are innovators, early adopters, the early majority, the late majority, and laggards. Innovators experiment for their own reasons. Early adopters take it up because they see the advantage. The early majority waits for proof from someone they trust. The late majority moves when staying put becomes the harder option. Laggards adopt only when the old way stops being available. Inside an organization these are not market segments but real colleagues, and the proportions are roughly the same on almost every team.",
+    "source_url": "https://airolloutframework.com/resources/ai-adoption-curve/"
+  },
+  {
+    "question": "Where are most companies on the AI adoption curve?",
+    "answer": "Most mid-market organizations sit at the gap between early adopters and the early majority. A handful of people are using AI heavily and getting real value, while the bulk of the team is waiting for a reason to trust it. This looks like stalled adoption, but it is the normal shape of the curve at that point, and it is where structure makes the largest difference.",
+    "source_url": "https://airolloutframework.com/resources/ai-adoption-curve/"
+  },
+  {
+    "question": "How do you move an organization along the AI adoption curve?",
+    "answer": "By producing internal evidence rather than applying pressure. The early majority does not adopt because leadership asked - it adopts when someone comparable, doing comparable work, shows a result worth copying. That means running one documented pilot in a real workflow and sharing what it actually produced. Enthusiasm from the front of the curve does not transfer. Evidence does.",
+    "source_url": "https://airolloutframework.com/resources/ai-adoption-curve/"
+  },
+  {
+    "question": "What should an AI adoption strategy include?",
+    "answer": "Six decisions: which problem you are solving, who owns the rollout, what data is in bounds, where the first pilot runs, what evidence counts as success, and what happens after the pilot works. A strategy that names a tool but leaves those six unanswered is a purchase, not a strategy. Notably, none of the six require a technical background - they are operational judgements about your own organization.",
+    "source_url": "https://airolloutframework.com/resources/ai-adoption-strategy/"
+  },
+  {
+    "question": "What is the difference between an AI adoption strategy and an AI adoption framework?",
+    "answer": "A strategy is the set of decisions - what you are solving, who owns it, what success means. A framework is the repeatable system that carries those decisions out, with the stages, tools, and checkpoints. A roadmap is the calendar that sequences the work into dates. You need the decisions first: a framework applied to undecided questions just produces well-organized drift.",
+    "source_url": "https://airolloutframework.com/resources/ai-adoption-strategy/"
+  },
+  {
+    "question": "How long does it take to build an AI adoption strategy?",
+    "answer": "The six decisions can be made in a week by the people who already know the organization. Turning them into evidence takes about 90 days: roughly the first month on baseline and guardrails, the second on one controlled pilot, the third on measuring and documenting it. Organizations that spend a quarter writing strategy documents before touching a workflow generally have less to show at the end than those that decided quickly and tested.",
+    "source_url": "https://airolloutframework.com/resources/ai-adoption-strategy/"
+  },
+  {
+    "question": "Do I need a lawyer to write an AI policy?",
+    "answer": "For a practical operational governance document, no. For a formal policy that addresses liability, compliance obligations, or industry-specific regulation, possibly yes. Most managers in the Early Exploration or Developing Capability stage are better served by starting with a clear operational document and involving legal when the stakes are higher. A well-defined internal governance document that your team actually follows is worth more than a formal policy that nobody reads.",
+    "source_url": "https://airolloutframework.com/resources/ai-guardrails-workplace/"
+  },
+  {
+    "question": "How strict should AI guardrails be?",
+    "answer": "Strict enough that the important things are protected. Flexible enough that your team doesn't route around them. The goal is compliance through clarity — people follow guardrails when they understand the reasoning, not just the rules. If your team is regularly asking for exceptions, your guardrails are either too restrictive or too vague. Both are solvable.",
+    "source_url": "https://airolloutframework.com/resources/ai-guardrails-workplace/"
+  },
+  {
+    "question": "What's the difference between AI guardrails and AI governance?",
+    "answer": "Guardrails are the specific rules and norms — what data can be used, how outputs get reviewed, who gets notified when something goes wrong. Governance is the broader system: the ownership structure, the review process, the policies, and the accountability framework that guardrails operate within. Guardrails are part of governance, not a replacement for it.",
+    "source_url": "https://airolloutframework.com/resources/ai-guardrails-workplace/"
+  },
+  {
     "question": "What are AI guardrails in the workplace?",
     "answer": "AI guardrails are the defined norms, boundaries, and review expectations that govern how AI is used inside an organization. They cover what data can be used with AI tools, how AI outputs should be reviewed before acting on them, what counts as an error worth flagging, and who is accountable for AI-influenced decisions.",
     "source_url": "https://airolloutframework.com/resources/ai-guardrails-workplace/"
@@ -328,6 +503,21 @@
     "question": "What should an AI workplace policy include?",
     "answer": "A practical AI workplace policy should cover: what data classifications can and cannot be used with AI tools, review expectations for AI-generated outputs in different contexts, who owns AI governance and how questions get escalated, what counts as an AI error worth documenting, and how the policy gets updated as AI use evolves.",
     "source_url": "https://airolloutframework.com/resources/ai-guardrails-workplace/"
+  },
+  {
+    "question": "What if our pilot doesn't produce positive results?",
+    "answer": "A pilot that produces negative results is still a successful pilot — because you learned something concrete rather than continuing to experiment without evidence. A pilot that shows AI isn't the right fit for a particular workflow saves you from scaling something that doesn't work. Document what you learned, adjust your workflow selection criteria, and run the next pilot with better information. That's the process working as designed.",
+    "source_url": "https://airolloutframework.com/resources/ai-pilot-program-guide/"
+  },
+  {
+    "question": "How do you get leadership buy-in for an AI pilot?",
+    "answer": "Present it as a structured, bounded experiment rather than an open-ended AI initiative. Leadership is often skeptical of AI initiatives because they've seen enthusiasm without accountability. A 30-day pilot with a defined workflow, clear success metrics, and a commitment to producing a results summary is a fundamentally different ask. It's low-risk, time-limited, and produces organizational evidence either way.",
+    "source_url": "https://airolloutframework.com/resources/ai-pilot-program-guide/"
+  },
+  {
+    "question": "How many workflows should we pilot at once?",
+    "answer": "One, at least for your first pilot. Running multiple simultaneous pilots diffuses focus, complicates documentation, and makes it hard to learn clearly from either one. Do one well, document it thoroughly, present the results, and use what you learned to select a better second pilot. Speed comes from doing sequential pilots well, not from running parallel experiments badly.",
+    "source_url": "https://airolloutframework.com/resources/ai-pilot-program-guide/"
   },
   {
     "question": "How do you run an AI pilot program?",
@@ -365,9 +555,39 @@
     "source_url": "https://airolloutframework.com/resources/ai-pilot-success-scaling/"
   },
   {
+    "question": "How often should an organization reassess AI readiness?",
+    "answer": "At minimum, once per quarter during active AI rollout — and after any significant changes to your toolset, team structure, or governance policies. The goal isn't a perfect score. The goal is knowing whether your capability is keeping pace with your AI use. If adoption is growing faster than your governance and skills, that gap is a risk worth measuring.",
+    "source_url": "https://airolloutframework.com/resources/ai-readiness-assessment-operations/"
+  },
+  {
+    "question": "Is AI readiness the same as AI maturity?",
+    "answer": "They're related but distinct. AI maturity typically refers to how advanced an organization's AI capabilities are — often measured on a 5-point scale from \"ad hoc\" to \"transformative.\" AI readiness is more practical and near-term: it measures whether you have the ownership, governance, workflow clarity, and skill base needed to take the next step responsibly. Readiness comes before maturity.",
+    "source_url": "https://airolloutframework.com/resources/ai-readiness-assessment-operations/"
+  },
+  {
+    "question": "What if our team scores low on the assessment?",
+    "answer": "A low score isn't a problem — it's a diagnosis. Most organizations that haven't done a formal AI readiness assessment score in the Early Exploration stage. That's useful information. It means you know where to start: foundation-setting, not piloting. The AI Capability Rollout Framework is designed to meet organizations at Early Exploration and build from there.",
+    "source_url": "https://airolloutframework.com/resources/ai-readiness-assessment-operations/"
+  },
+  {
     "question": "How do you measure AI readiness in an operations team?",
     "answer": "AI readiness in operations teams is measured across four dimensions: whether leadership has defined AI ownership and strategy, whether governance guardrails exist for data and review, whether workflows have been evaluated for AI fit, and whether team capability is being developed with shared standards. The free AI Readiness Score at airolloutframework.com/ai-readiness-score measures all four.",
     "source_url": "https://airolloutframework.com/resources/ai-readiness-assessment-operations/"
+  },
+  {
+    "question": "What if AI saves time but the financial ROI isn't obvious?",
+    "answer": "Time savings don't always translate directly to financial savings — especially if the recovered time gets absorbed into other work rather than reducing headcount or cost. That's fine. Frame it as organizational capacity recovered, not cost eliminated. Three hours saved per person per week is meaningful even if it doesn't show up on a P&L. Leadership understands capacity arguments, especially when paired with evidence of quality improvement or capability development.",
+    "source_url": "https://airolloutframework.com/resources/ai-roi-measurement-framework/"
+  },
+  {
+    "question": "How do you measure AI ROI before a pilot is complete?",
+    "answer": "You don't — and trying to do so usually produces misleading early results that underestimate or overestimate actual impact. Measure during and after a defined pilot window. The 30-day structured pilot exists specifically to give you enough data to evaluate impact fairly. Early impressions are useful anecdotally but shouldn't drive formal ROI claims.",
+    "source_url": "https://airolloutframework.com/resources/ai-roi-measurement-framework/"
+  },
+  {
+    "question": "What if our pilot results are mixed?",
+    "answer": "Mixed results are the most honest kind — and the most common. Present them honestly: here's where AI added clear value, here's where it didn't, here's what we'd do differently. A mixed-results summary that leads to a thoughtful recommendation for a better-scoped second pilot is genuinely valuable. It shows your organization can evaluate AI adoption rigorously, which is itself a capability worth building.",
+    "source_url": "https://airolloutframework.com/resources/ai-roi-measurement-framework/"
   },
   {
     "question": "How do you measure AI ROI for operations teams?",
@@ -385,6 +605,26 @@
     "source_url": "https://airolloutframework.com/resources/ai-roi-measurement-framework/"
   },
   {
+    "question": "What's the difference between an AI rollout and just using AI?",
+    "answer": "Using AI means individuals are experimenting with tools. An AI rollout means the organization has defined ownership, governance, and a measurable path for how AI gets introduced, used, and evaluated. The distinction matters because ungoverned AI use creates invisible risk — data exposure, inconsistent outputs, and adoption that nobody can explain or defend.",
+    "source_url": "https://airolloutframework.com/resources/ai-rollout-framework-guide/"
+  },
+  {
+    "question": "Do I need a dedicated AI team to run a rollout?",
+    "answer": "No. The AI Capability Rollout Framework is built specifically for managers and directors who are running this without a dedicated AI function. If you can manage a team and lead a project, you can lead a structured AI rollout. Most organizations that benefit most from this framework are in the 50–500 employee range where there isn't a dedicated AI team — just a capable person who decides to take ownership.",
+    "source_url": "https://airolloutframework.com/resources/ai-rollout-framework-guide/"
+  },
+  {
+    "question": "What does a 90-day AI rollout actually look like week by week?",
+    "answer": "The first 30 days focus on foundation: completing your readiness assessment, aligning leadership, defining ownership, and establishing basic governance guardrails. Days 31–60 are about your controlled pilot: scoping the workflow, running the pilot with guardrails, documenting what you learn. Days 61–90 formalize what worked, expand thoughtfully, and produce an executive summary that supports broader organizational alignment.",
+    "source_url": "https://airolloutframework.com/resources/ai-rollout-framework-guide/"
+  },
+  {
+    "question": "How is this different from generic AI training?",
+    "answer": "Generic AI training teaches you how tools work. The AI Capability Rollout Framework teaches you how to lead adoption inside a real organization. That means governance, workflow assessment, pilot design, measurement, and executive alignment — not just prompting techniques. If you've already taken AI training and still don't have a clear internal path forward, this is the next step.",
+    "source_url": "https://airolloutframework.com/resources/ai-rollout-framework-guide/"
+  },
+  {
     "question": "What is an AI rollout framework?",
     "answer": "An AI rollout framework is a structured implementation system for introducing AI into an organization with defined phases, governance guardrails, and measurable milestones. The AI Capability Rollout Framework covers the full path from assessing readiness through a controlled 90-day adoption plan.",
     "source_url": "https://airolloutframework.com/resources/ai-rollout-framework-guide/"
@@ -396,12 +636,12 @@
   },
   {
     "question": "How long does an AI rollout take for a small organization?",
-    "answer": "A structured AI rollout for a small or mid-sized organization typically takes 60 to 90 days from foundation-setting through a formalized first pilot. The AI Capability Rollout Framework structures this as three phases: Foundation and Alignment (days 1–30), Controlled Pilot (days 31–60), and Formalization and Scale (days 61–90).",
+    "answer": "A structured AI rollout for a small or mid-sized organization typically takes 60 to 90 days from foundation-setting through a formalized first pilot. The AI Capability Rollout Framework structures this as three phases: Establish Clarity & Guardrails (Days 1–30), Introduce a Controlled Pilot (Days 31–60), and Measure, Formalize & Scale (Days 61–90).",
     "source_url": "https://airolloutframework.com/resources/ai-rollout-framework-guide/"
   },
   {
     "question": "What are the five stages of AI adoption for organizations?",
-    "answer": "The AI Capability Rollout Framework uses a public-facing five-part structure: Assess, Define Guardrails, Pilot, Measure, and Formalize/Scale. These map to three internal implementation phases over 90 days.",
+    "answer": "The AI Capability Rollout Framework breaks adoption into five steps — Assess, Define Guardrails, Pilot, Measure, and Formalize/Scale — delivered across its three stage-gated phases over 90 days.",
     "source_url": "https://airolloutframework.com/resources/ai-rollout-framework-guide/"
   },
   {
@@ -426,7 +666,7 @@
   },
   {
     "question": "Are we already behind on AI adoption?",
-    "answer": "Most organizations that feel behind on AI aren't behind — they're unstructured. There's a meaningful difference. Being behind implies you've missed something irreversible. Being unstructured means you haven't built the foundation yet. That's fixable. The organizations that appear ahead on AI are usually the ones who started building structure early — not the ones who deployed the most tools.",
+    "answer": "Most organizations that feel behind on AI aren't behind — they're unstructured. There's a meaningful difference. Being behind implies you've missed something irreversible. Being unstructured means you haven't built the foundation yet. That's fixable. The organizations that appear \"ahead\" on AI are usually the ones who started building structure early — not the ones who deployed the most tools.",
     "source_url": "https://airolloutframework.com/resources/already-behind-on-ai/"
   },
   {
@@ -471,7 +711,7 @@
   },
   {
     "question": "What should I do if my employees are using unauthorized AI tools?",
-    "answer": "Don't issue a blanket ban — it drives the use underground and eliminates your visibility into what's happening. Instead, start by building a map: send a casual, non-threatening message to a few team leads asking what AI tools people are using day to day. Remove the threat from the question and you'll get honest answers. Once you know what's actually happening, you can triage by risk level and make decisions grounded in evidence rather than assumption.",
+    "answer": "Don't issue a blanket ban — it drives the use underground and eliminates your visibility. Start by building a map: send a casual, non-threatening message to a few team leads asking what AI tools people are using day to day. Remove the threat from the question and you'll get honest answers. Once you know what's actually happening, you can triage by risk level and make decisions grounded in evidence rather than assumption.",
     "source_url": "https://airolloutframework.com/resources/employees-using-ai-without-approval/"
   },
   {
@@ -481,12 +721,12 @@
   },
   {
     "question": "How do you triage unauthorized AI use by risk level?",
-    "answer": "Sort what you find into three buckets. Low risk: tools being used for non-sensitive tasks with outputs reviewed by a human before use — these can often be formalized quickly with minimal guardrails. Medium risk: tools being used for sensitive or client-facing tasks without a formal review process — these need guardrails before continuing. High risk: tools processing regulated data, personally identifiable information, or producing outputs that affect people without review — these require immediate intervention and should stop until proper governance is in place.",
+    "answer": "Sort what you find into three buckets. Low risk: tools used for non-sensitive tasks with outputs reviewed by a human — these can often be formalized quickly as official pilots. Medium risk: tools used for sensitive or client-facing tasks without a formal review process — these need guardrails before continuing. High risk: tools processing regulated data or producing outputs that affect people without human review — these require immediate, direct intervention.",
     "source_url": "https://airolloutframework.com/resources/employees-using-ai-without-approval/"
   },
   {
     "question": "How do you build an AI acceptable use policy employees will actually follow?",
-    "answer": "The policies that get followed are the ones that reflect what employees are actually doing, not the ones that prohibit everything and hope for compliance. Start by mapping what's already happening. Build your policy around formalizing the low-risk use with clear guardrails, redirecting medium-risk use into structured pilots, and setting firm boundaries only where the risk genuinely warrants it. A policy written after a visibility exercise is specific, credible, and far more likely to be followed than one written in reaction to a headline.",
+    "answer": "The policies that get followed are the ones that reflect what employees are actually doing, not the ones that prohibit everything. Start by mapping what's already happening. Build your policy around formalizing low-risk use with clear guardrails, redirecting medium-risk use into structured pilots, and setting firm boundaries only where the risk genuinely warrants it. A policy written after a visibility exercise is specific, credible, and far more likely to be followed than one written in reaction to a headline.",
     "source_url": "https://airolloutframework.com/resources/employees-using-ai-without-approval/"
   },
   {
@@ -500,7 +740,7 @@
     "source_url": "https://airolloutframework.com/resources/first-30-days-ai-plan/"
   },
   {
-    "question": "What is a boring win in AI adoption?",
+    "question": "What is a \"boring win\" in AI adoption?",
     "answer": "A boring win is a low-risk, measurable, human-reviewed workflow that serves as your first AI pilot. It doesn't need to be impressive — it needs to be documentable. Examples: first-draft summaries of non-sensitive meeting notes, formatting recurring reports, organizing intake data. The goal is to produce organizational evidence that AI works in your environment before you tackle anything high-stakes. Boring wins build the trust that makes ambitious pilots possible later.",
     "source_url": "https://airolloutframework.com/resources/first-30-days-ai-plan/"
   },
@@ -601,17 +841,17 @@
   },
   {
     "question": "What is shadow AI and why is it risky?",
-    "answer": "Shadow AI refers to AI tools and workflows that employees build and use on their own, without formal approval, documentation, or organizational oversight. It's risky not because the work is bad — often it's excellent — but because it's invisible. When shadow AI becomes load-bearing (meaning the organization depends on it without knowing it), and then the person who built it leaves, the organization loses capability it didn't even know it had. The fix is building systems to surface and document shadow AI before it walks out the door.",
+    "answer": "Shadow AI refers to AI tools and workflows that employees build and use on their own, without formal approval, documentation, or organizational oversight. It's risky not because the work is bad — often it's excellent — but because it's invisible. When shadow AI becomes load-bearing and the person who built it leaves, the organization loses capability it didn't even know it had. The fix is building systems to surface and document shadow AI before it walks out the door.",
     "source_url": "https://airolloutframework.com/resources/your-best-person-quit-ai-workflow/"
   },
   {
     "question": "How do I prevent losing AI knowledge when employees leave?",
-    "answer": "Build a culture where AI workflows get captured as they're created, not after someone gives notice. Create a simple workflow library — even a shared document — where employees are expected to document any AI process they build that affects team output. Set the expectation clearly: when you find a better way to do something with AI, write it down and share it. That expectation, built into how the team operates, is what transforms individual AI knowledge into organizational AI memory.",
+    "answer": "Build a culture where AI workflows get captured as they're created, not after someone gives notice. Create a simple workflow library where employees are expected to document any AI process they build that affects team output. Set the expectation clearly: when you find a better way to do something with AI, write it down and share it. That expectation, built into how the team operates, transforms individual AI knowledge into organizational AI memory.",
     "source_url": "https://airolloutframework.com/resources/your-best-person-quit-ai-workflow/"
   },
   {
     "question": "Is it the employee's fault if they leave and take their AI workflow with them?",
-    "answer": "No. If an employee built an AI workflow on their own, without being asked to document it, without a system for sharing it, and without any expectation that it belonged to the organization — they didn't do anything wrong. This is a leadership and systems problem, not a people problem. The responsibility falls on the organization to create the expectation and the infrastructure for capturing AI knowledge. Blaming the employee for a gap the organization created is both unfair and counterproductive.",
+    "answer": "No. If an employee built an AI workflow on their own without being asked to document it, without a system for sharing it, and without any expectation that it belonged to the organization — they didn't do anything wrong. This is a leadership and systems problem, not a people problem. The responsibility falls on the organization to create the expectation and the infrastructure for capturing AI knowledge.",
     "source_url": "https://airolloutframework.com/resources/your-best-person-quit-ai-workflow/"
   }
 ]

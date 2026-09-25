@@ -1,11 +1,13 @@
 # Pricing & Tiers
 
 > **⚠️ High drift risk.** Pricing is the fastest-changing fact on this
-> site. The figures below were verified directly against the live site
-> (`api/framework.json`, `framework.html`, `employee-training.html`) on
-> 2026-08-20 — not retyped from memory. **Include this file in any
-> future pricing-consistency audit sweep**, alongside the HTML pages
-> and `api/framework.json`.
+> site. `api/framework.json` is the source of truth (the MCP server's
+> `get_pricing` tool reads it directly); this file mirrors it. The
+> framework and Learning Path figures were verified against the live site
+> on 2026-08-20; the Executive Suite figures were added from
+> `api/framework.json` on 2026-09-23. **Include this file in any future
+> pricing-consistency audit sweep**, alongside the HTML pages and
+> `api/framework.json`.
 
 ## AI Capability Rollout Framework
 
@@ -21,6 +23,29 @@
 
 No subscription, no renewal fee, no hidden charges.
 
+## AI Capability Rollout Framework + Executive Suite
+
+| | |
+|---|---|
+| **Price** | $199 USD |
+| **Upgrade price** | $100 USD — existing framework owners only, signed in to the members area |
+| **Billing** | One-time payment |
+| **Access** | Lifetime — the complete framework plus the Executive Suite, and future Executive Suite additions |
+| **Guarantee** | 30-day money-back guarantee — same terms as the framework, on the $199 bundle and the $100 upgrade |
+| **Checkout** | [airolloutframework.com/enroll?product=executive](https://airolloutframework.com/enroll?product=executive) (upgrade: `/enroll?product=executive-upgrade`) |
+| **Landing page** | [airolloutframework.com/executive](https://airolloutframework.com/executive) |
+
+Includes everything in the $99 framework, plus: the Board Briefing Pack
+(editable PowerPoint), the AI ROI & Impact Calculator, the AI Governance
+& Policy Kit (three editable Word templates — not legal advice), and
+90-day execution roadmaps for Sales, Operations, HR, Marketing and IT
+(HR, Marketing and IT added after launch), and the Executive Audio
+Masterclass (59 minutes of audio in 11 chaptered segments; M4A with
+chapter markers plus an MP3 fallback, released 2026-09-25).
+
+There is no standalone Executive-only product: it is a bundle upgrade,
+not a third tier.
+
 ## The Complete AI Learning Path (4-Course Master Bundle)
 
 | | |
@@ -34,16 +59,21 @@ No subscription, no renewal fee, no hidden charges.
 | **Free entry point** | Free sample pack — one preview lesson from each course, a starter PDF, a free audiobook, and the full syllabus |
 
 No subscription, no renewal fee. No money-back guarantee is currently
-published for this tier on the live site (only the $99 framework has a
-stated 30-day guarantee) — do not imply one exists here.
+published for this tier on the live site (only the framework and the
+Executive Suite have a stated 30-day guarantee) — do not imply one
+exists here.
 
 ## What each tier is for
 
-The two products are complementary, not competing:
+The products are complementary, not competing:
 
 - **The AI Capability Rollout Framework ($99)** is for the manager or
   director leading organization-wide AI adoption — governance, pilots,
-  and measurement.
+  and measurement. It is the complete framework on its own.
+- **The Framework + Executive Suite ($199)** is for the leader who also
+  has to present the programme upward — to a board or leadership team.
+  It adds the investment case, ROI model, AI policy templates and
+  department roadmaps.
 - **The Complete AI Learning Path ($24.99/user)** is the employee-
   facing companion — practical AI skills training for the people
   actually using AI day to day. It is standalone AI-literacy training
@@ -57,18 +87,27 @@ Learning Path to build team-wide capability.
 Checkout runs on-domain via Stripe, embedded on `/enroll`. The product
 is selected by a `product` query parameter (`/enroll` defaults to the
 $99 framework; `/enroll?product=team-training` selects the $24.99
-bundle). If the embedded Stripe session fails to initialize, a hosted-
+bundle; `/enroll?product=executive` the $199 Executive Suite bundle;
+`/enroll?product=executive-upgrade` the $100 upgrade, which the server
+only sells to a signed-in framework owner). If the embedded Stripe session fails to initialize, a hosted-
 checkout fallback is used automatically — both paths route through
 `airolloutframework.com`, never a third-party domain.
 
 ## Verification checklist for future audits
 
-- [ ] `$99` and `$24.99` figures match across: `api/framework.json`,
-      `framework.html`, `employee-training.html`, `index.html`,
-      `llms.txt`, `llms-full.txt`
-- [ ] `/enroll` and `/enroll?product=team-training` both resolve and
-      route to the correct product
+- [ ] `$99`, `$199`, `$100` and `$24.99` figures match across:
+      `api/framework.json`, `api/faq.json`, `framework.html`,
+      `executive.html`, `employee-training.html`, `index.html`,
+      `llms.txt`, `llms-full.txt`, and the MCP `get_pricing` output
+- [ ] `/enroll`, `/enroll?product=team-training`,
+      `/enroll?product=executive` and `/enroll?product=executive-upgrade`
+      all resolve and route to the correct product
 - [ ] No stray reference to a third-party checkout domain (Gumroad,
       aibeginner.net, etc.)
 - [ ] Money-back guarantee language is only claimed for the $99
-      framework tier
+      framework and the Executive Suite ($199 bundle / $100 upgrade)
+- [ ] **Yearly (manual):** `priceValidUntil` on the four Offers
+      (`executive.html`, `framework.html`, `index.html`,
+      `employee-training.html`) is 2027-12-31. Push it out a year before
+      it lapses — an expired date can suppress Google's price snippet.
+      Deliberately manual: the site has no build step to roll it.
