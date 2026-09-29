@@ -853,5 +853,55 @@
     "question": "Is it the employee's fault if they leave and take their AI workflow with them?",
     "answer": "No. If an employee built an AI workflow on their own without being asked to document it, without a system for sharing it, and without any expectation that it belonged to the organization — they didn't do anything wrong. This is a leadership and systems problem, not a people problem. The responsibility falls on the organization to create the expectation and the infrastructure for capturing AI knowledge.",
     "source_url": "https://airolloutframework.com/resources/your-best-person-quit-ai-workflow/"
+  },
+  {
+    "question": "Why do most AI pilots stall?",
+    "answer": "Most AI pilots stall because they were designed to test a tool rather than to produce a decision. When the pilot ends, there's usually no named owner, no written guardrails, no agreed success metric, and no plan for people beyond the pilot group, so no one makes the call to scale, revise, or stop.",
+    "source_url": "https://airolloutframework.com/why-ai-pilots-stall"
+  },
+  {
+    "question": "What is AI pilot purgatory?",
+    "answer": "AI pilot purgatory is when an AI pilot finishes but never turns into a decision. The tool keeps running for a few enthusiasts, licenses renew, and the organization never commits to scaling it or shutting it down. It's usually caused by pilot design, not by the technology.",
+    "source_url": "https://airolloutframework.com/why-ai-pilots-stall"
+  },
+  {
+    "question": "What's the difference between an AI proof of concept and an AI pilot?",
+    "answer": "A proof of concept shows that a technology can do a task. An AI pilot tests whether your organization can use it well in a real workflow, with real users, measured against a target agreed in advance, and it should end in a go or no-go decision.",
+    "source_url": "https://airolloutframework.com/why-ai-pilots-stall"
+  },
+  {
+    "question": "Who should own an AI pilot?",
+    "answer": "One named person with the authority to make the go/no-go decision and a date when that decision is due. In most mid-market companies, the best owner is the person closest to the workflow being piloted, not IT or a committee. The owner doesn't need to be technical.",
+    "source_url": "https://airolloutframework.com/why-ai-pilots-stall"
+  },
+  {
+    "question": "What guardrails does an AI pilot need?",
+    "answer": "A one-page document is enough if it answers four questions: what data can and can't go into the tool, which tools are approved, which outputs need human review before they're used, and who people should ask when they're unsure. It should be written down and seen by everyone in the pilot before it starts.",
+    "source_url": "https://airolloutframework.com/why-ai-pilots-stall"
+  },
+  {
+    "question": "How do you measure whether an AI pilot succeeded?",
+    "answer": "Choose one bounded workflow and one metric that matters, such as time per task, turnaround time, or error rate. Record the baseline before the pilot starts, then set a written target, for example \"cut time per task by a third without more errors,\" that turns the result into a clear go or no-go.",
+    "source_url": "https://airolloutframework.com/why-ai-pilots-stall"
+  },
+  {
+    "question": "What is an AI pilot charter?",
+    "answer": "An AI pilot charter is a one-page document, signed off by leadership before the pilot starts, that answers four questions: who decides, what's allowed, what success looks like, and what happens if it works. If any of the four can't be answered, the pilot isn't ready to start.",
+    "source_url": "https://airolloutframework.com/why-ai-pilots-stall"
+  },
+  {
+    "question": "What is a pre-mortem for an AI pilot?",
+    "answer": "A pre-mortem is a 15-minute exercise before the pilot starts. The owner and pilot group imagine it's three months later and the pilot has quietly stalled, then explain why. The top answers usually reveal gaps in ownership, guardrails, measurement, or support, which can be fixed in the charter before launch.",
+    "source_url": "https://airolloutframework.com/why-ai-pilots-stall"
+  },
+  {
+    "question": "Why does AI adoption stall after a successful pilot?",
+    "answer": "Because pilot groups are usually volunteers who are already comfortable with new tools. The rest of the organization needs role-specific training, access to champions from the pilot group, and protected time to learn. Without that support, usage drops even when the pilot itself went well.",
+    "source_url": "https://airolloutframework.com/why-ai-pilots-stall"
+  },
+  {
+    "question": "Does a no-go decision mean the AI pilot stalled?",
+    "answer": "No. A clear no-go means the pilot did its job: the organization learned something real, quickly and cheaply. The only truly failed pilot is one that never reaches a decision.",
+    "source_url": "https://airolloutframework.com/why-ai-pilots-stall"
   }
 ]

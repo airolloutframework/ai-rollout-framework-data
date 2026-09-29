@@ -76,6 +76,22 @@ and how progress is measured. Organized around decision gates, not
 features: at each stage the organization either advances, revises, or
 stops, based on documented evidence.
 
+## AI pilot charter
+
+An AI pilot charter is a one-page document, signed off by leadership
+before the pilot starts, that answers four questions: who decides,
+what's allowed, what success looks like, and what happens if it works.
+If any of the four can't be answered, the pilot isn't ready to start.
+Covered in depth at [airolloutframework.com/why-ai-pilots-stall](https://airolloutframework.com/why-ai-pilots-stall).
+
+## AI pilot purgatory
+
+AI pilot purgatory is when an AI pilot finishes but never turns into a
+decision. The tool keeps running for a few enthusiasts, licenses renew,
+and the organization never commits to scaling it or shutting it down.
+It's usually caused by pilot design, not by the technology.
+Covered in depth at [airolloutframework.com/why-ai-pilots-stall](https://airolloutframework.com/why-ai-pilots-stall).
+
 ## Capability-first (vs. technology-first)
 
 AI Rollout Framework's core positioning stance, and its signature line:

@@ -38,6 +38,31 @@ Tools used in this phase: Workflow Evaluation Checklist, AI Pilot
 Planning Template, AI Pilot Approval Two-Pager, Pilot Metrics Tracker,
 AI Capability Pilot Builder.
 
+#### The pilot charter
+
+Build the decision into the pilot before it starts. That means one page,
+a pilot charter, signed off by leadership, that answers four questions.
+Then book the decision meeting on the calendar the same day the pilot
+starts.
+
+| Question | What goes in the charter |
+|---|---|
+| Who decides? | One named owner and a decision date |
+| What's allowed? | One-page guardrails (data, tools, human review, who to ask) |
+| What does success look like? | One workflow, one metric, a baseline, and a target |
+| What happens if it works? | A training and support plan beyond the pilot group |
+
+If you can't fill in all four, the pilot isn't ready to start.
+
+#### The pre-mortem
+
+Before the pilot begins, gather the owner and the pilot group and ask
+one question: "It's three months from now, and this pilot quietly
+stalled. What happened?" Write down the top three answers and fix them
+in your charter.
+
+Full guide: [Why Do Most AI Pilots Stall?](https://airolloutframework.com/why-ai-pilots-stall)
+
 ### Phase 3 — Measure, Formalize & Scale (Days 61–90)
 
 Re-score organizational capability, interpret before/after results,

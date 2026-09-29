@@ -5,6 +5,23 @@ commit history — not a list of every commit, but the milestones that
 changed what the site says, how it's structured, or how discoverable
 it is.
 
+## 2026-09-29
+
+- Published [Why Do Most AI Pilots Stall?](https://airolloutframework.com/why-ai-pilots-stall),
+  the companion article for AI Rollout Podcast Season 3, Episode 11 and
+  the first episode in the citation-first format (question-titled
+  chapters, answer-first). The page carries the episode itself: YouTube
+  player with chapter links, Spotify link, full transcript, and
+  `PodcastEpisode` + `VideoObject` schema with one `Clip` per chapter.
+  Ten FAQ pairs, a one-page AI pilot charter, and cross-links to and
+  from the pilot program guide, the pilot scaling guide, the AI adoption
+  framework and the AI implementation roadmap.
+- Added "AI pilot charter" and "AI pilot purgatory" to
+  [entity-definitions.md](entity-definitions.md) and to the MCP
+  `search_knowledge_base` index.
+- Added the pilot charter and the pre-mortem to Phase 2 in
+  [framework-methodology.md](framework-methodology.md).
+
 ## 2026-09-25
 
 - Released the Executive Audio Masterclass (59 minutes, 11 chaptered
