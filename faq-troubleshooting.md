@@ -135,7 +135,7 @@ the people actually using AI day to day. It does not tie into the
 The AI Executive Suite is the board-level add-on to the AI Capability
 Rollout Framework: an editable Board Briefing Pack, the AI ROI & Impact
 Calculator, the AI Governance & Policy Kit, 90-day department
-roadmaps and a 59-minute Executive Audio Masterclass. It is sold only as a bundle with the framework for $199
+roadmaps, the Rollout & Operations Kit (nine templates for running the rollout) and a 59-minute Executive Audio Masterclass. It is sold only as a bundle with the framework for $199
 one-time, with lifetime access and a 30-day money-back guarantee.
 Existing framework owners can upgrade for $100. See
 [pricing-and-tiers.md](pricing-and-tiers.md).

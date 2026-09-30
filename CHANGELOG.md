@@ -5,6 +5,28 @@ commit history — not a list of every commit, but the milestones that
 changed what the site says, how it's structured, or how discoverable
 it is.
 
+## 2026-09-30
+
+- Added the Rollout & Operations Kit to the Executive Suite: nine gated
+  templates for running an AI rollout day to day — AI Data
+  Classification Guide, Enterprise AI Tier Guide, Shadow AI Inventory
+  Worksheet, AI Policy Rollout Kit, AI Incident Response Playbook,
+  Microsoft Copilot Readiness Guide, Vendor AI Risk Questionnaire, AI
+  Champions Program Guide and AI Adoption Scorecard (eight Word
+  templates and an Excel spreadsheet). They reuse the AI Governance &
+  Policy Kit's data classes, tool tiers and risk ratings. Vendor and
+  Microsoft details are stamped "Verified as of 30 September 2026".
+- Prices unchanged ($199 bundle, $100 upgrade). Existing Executive
+  Suite owners receive the kit at no extra cost.
+- Updated the offer description in
+  [pricing-and-tiers.md](pricing-and-tiers.md), `api/framework.json`
+  (and so the MCP `get_pricing` and `get_framework_overview` output),
+  `api/faq.json`, [faq-troubleshooting.md](faq-troubleshooting.md), the
+  `/executive` page (new Rollout & Operations Kit section, Product
+  schema, FAQ), checkout, the framework and home page cards, `llms.txt`
+  and `llms-full.txt`. The files themselves are served only to signed-in
+  Executive Suite members.
+
 ## 2026-09-29
 
 - Published [Why Do Most AI Pilots Stall?](https://airolloutframework.com/why-ai-pilots-stall),

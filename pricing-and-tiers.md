@@ -5,7 +5,8 @@
 > `get_pricing` tool reads it directly); this file mirrors it. The
 > framework and Learning Path figures were verified against the live site
 > on 2026-08-20; the Executive Suite figures were added from
-> `api/framework.json` on 2026-09-23. **Include this file in any future
+> `api/framework.json` on 2026-09-23, and the Rollout & Operations Kit
+contents on 2026-09-30 (prices unchanged). **Include this file in any future
 > pricing-consistency audit sweep**, alongside the HTML pages and
 > `api/framework.json`.
 
@@ -41,7 +42,40 @@ Includes everything in the $99 framework, plus: the Board Briefing Pack
 90-day execution roadmaps for Sales, Operations, HR, Marketing and IT
 (HR, Marketing and IT added after launch), and the Executive Audio
 Masterclass (59 minutes of audio in 11 chaptered segments; M4A with
-chapter markers plus an MP3 fallback, released 2026-09-25).
+chapter markers plus an MP3 fallback, released 2026-09-25), and the
+Rollout & Operations Kit (added 2026-09-30): nine templates for running
+the rollout day to day —
+
+1. **AI Data Classification Guide** — Twelve everyday examples showing
+   employees which information can go into which AI tool.
+2. **Enterprise AI Tier Guide** — Why company data belongs on business
+   and enterprise AI plans, with a platform comparison worksheet and a
+   setup checklist.
+3. **Shadow AI Inventory Worksheet** — An employee survey, an IT
+   discovery checklist and a register for finding the AI tools already
+   in use.
+4. **AI Policy Rollout Kit** — An announcement email, manager talking
+   points, an employee FAQ, a one-page quick reference, an
+   acknowledgement log and a refresher schedule.
+5. **AI Incident Response Playbook** — First-hour steps, severity
+   ratings and containment for five common AI incidents.
+6. **Microsoft Copilot Readiness Guide** — A checklist for fixing
+   oversharing before you turn on Microsoft Copilot (formerly Microsoft
+   365 Copilot).
+7. **Vendor AI Risk Questionnaire** — A short questionnaire for software
+   vendors that are adding AI features.
+8. **AI Champions Program Guide** — How to choose, run and recognise a
+   network of department AI champions.
+9. **AI Adoption Scorecard** — A spreadsheet tracking licensed and
+   active users, policy acknowledgement, training, incidents and
+   sentiment, with a check against your ROI assumptions.
+
+Eight editable Word templates and one Excel spreadsheet; templates, not
+legal advice. Existing Executive Suite owners receive the kit at no
+extra cost, under the "future Executive Suite additions" access term.
+Everywhere except `/executive` and this file, the nine are listed as one
+item: "Rollout & Operations Kit (nine templates for running the
+rollout)", with the topic list in `api/framework.json`.
 
 There is no standalone Executive-only product: it is a bundle upgrade,
 not a third tier.
