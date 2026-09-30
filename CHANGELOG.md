@@ -7,6 +7,21 @@ it is.
 
 ## 2026-09-30
 
+- Made the Framework + Executive Suite bundle the lead offer at $299
+  (upgrade for framework buyers: $200); the AI Capability Rollout
+  Framework on its own stays available at $99 as the lighter option.
+  The 30-day guarantee is unchanged. `/enroll` now defaults to the
+  Suite with a "Framework only" switch, the home page, `/framework`,
+  `/executive`, `/ai-readiness-score` and the sample results page lead
+  with the Suite, and every page gains an "Executive Suite" nav item.
+  `api/framework.json`, `llms.txt`, `llms-full.txt`, the FAQ, the docs
+  and the MCP server's `get_pricing` (now with a `recommendedOffer`
+  field) carry the new order and prices.
+- Published a two-page
+  [Executive Suite overview brochure](https://airolloutframework.com/executive-suite-overview.pdf),
+  generated from `api/framework.json` so its prices and contents can't
+  drift from the site.
+
 - Published two answer-first governance guides that link to the new
   kit:
   [Why Your Organization Should Use Business or Enterprise AI Plans](https://airolloutframework.com/resources/business-enterprise-ai-plans/)

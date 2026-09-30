@@ -77,9 +77,11 @@ Source: `api/framework.json` (the same file backing the existing
 
 ### 2. `get_pricing`
 
-Returns current pricing and checkout URLs for every product: the
-framework, the Framework + Executive Suite bundle (with its $100 upgrade
-for existing framework owners), and the Learning Path.
+Returns current pricing and checkout URLs for every product, in the
+order the site presents them: the Framework + Executive Suite bundle
+(the recommended offer, with its $200 upgrade for existing framework
+owners), the framework on its own, and the Learning Path.
+`recommendedOffer` names the recommended product's key.
 **Highest drift-risk tool** — sourced live from `api/framework.json`, the
 same file flagged for inclusion in any future pricing-consistency audit.
 
