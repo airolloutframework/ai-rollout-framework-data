@@ -7,6 +7,18 @@ it is.
 
 ## 2026-09-30
 
+- Published two answer-first governance guides that link to the new
+  kit:
+  [Why Your Organization Should Use Business or Enterprise AI Plans](https://airolloutframework.com/resources/business-enterprise-ai-plans/)
+  (consumer vs. business vs. enterprise plans, with a ChatGPT / Claude /
+  Microsoft Copilot / Gemini comparison verified against vendor
+  documentation) and
+  [Microsoft Copilot Readiness: Fix Oversharing Before You Turn It On](https://airolloutframework.com/resources/microsoft-copilot-readiness/)
+  (find, contain, fix and keep-clean steps with Microsoft Purview and
+  SharePoint Advanced Management; Restricted SharePoint Search
+  retirement). Seven FAQ pairs each with FAQPage schema, Markdown twins,
+  and entries in `llms.txt`, `llms-full.txt`, `sitemap.xml`, `rss.xml`,
+  the resources hub and [qa-dataset.json](qa-dataset.json).
 - Added the Rollout & Operations Kit to the Executive Suite: nine gated
   templates for running an AI rollout day to day — AI Data
   Classification Guide, Enterprise AI Tier Guide, Shadow AI Inventory

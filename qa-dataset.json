@@ -685,6 +685,41 @@
     "source_url": "https://airolloutframework.com/resources/already-behind-on-ai/"
   },
   {
+    "question": "Is it safe to put company data into ChatGPT?",
+    "answer": "It depends on the plan and the information. On a consumer or free account, the company has no contract, no admin control and no say in retention, so company information beyond what’s already public shouldn’t go there. On ChatGPT Business or Enterprise, OpenAI states that business data isn’t used for training by default, and the organization controls access. Even then, confidential or regulated information should only go into a tool your organization has specifically approved for it.",
+    "source_url": "https://airolloutframework.com/resources/business-enterprise-ai-plans/"
+  },
+  {
+    "question": "Do business AI plans use our data to train their models?",
+    "answer": "For the four major platforms, the vendors’ own documentation says not by default (verified 30 September 2026): OpenAI for ChatGPT Business and Enterprise, Anthropic for Claude’s commercial plans, Microsoft for Microsoft Copilot, and Google for Gemini in Google Workspace. Check that the commitment appears in your contract, not only in a product setting.",
+    "source_url": "https://airolloutframework.com/resources/business-enterprise-ai-plans/"
+  },
+  {
+    "question": "What’s the difference between ChatGPT Business and ChatGPT Enterprise?",
+    "answer": "Both include single sign-on and a no-training default for business data. ChatGPT Enterprise adds controls that standalone Business doesn’t: automatic user provisioning (SCIM), the Compliance Platform with audit logs and a Compliance API, custom retention periods (a minimum of 90 days) and data residency options for eligible customers. Verified against OpenAI documentation, 30 September 2026.",
+    "source_url": "https://airolloutframework.com/resources/business-enterprise-ai-plans/"
+  },
+  {
+    "question": "What’s the difference between Claude Team and Claude Enterprise?",
+    "answer": "Claude Team includes single sign-on, domain capture, just-in-time provisioning, role-based permissions and spend controls. Claude Enterprise adds automatic provisioning (SCIM), audit logs, a Compliance API, custom data retention (a minimum of 30 days) and a US-only inference option. Anthropic states that commercial plans aren’t used for training by default. Verified against Anthropic documentation, 30 September 2026.",
+    "source_url": "https://airolloutframework.com/resources/business-enterprise-ai-plans/"
+  },
+  {
+    "question": "Does a small organization need an enterprise AI plan?",
+    "answer": "Not always. A business plan can be enough when the tool handles everyday internal information and a handful of people use it. Enterprise controls — provisioning, audit logs, custom retention — start to matter when the tool handles confidential or regulated information, when many people use it, or when you need to show what happened after a mistake.",
+    "source_url": "https://airolloutframework.com/resources/business-enterprise-ai-plans/"
+  },
+  {
+    "question": "Does a paid personal AI subscription make it safe for work?",
+    "answer": "No. Paying for a personal plan doesn’t give the company any control: the individual still owns the account, the settings and the history. Only a plan under a company agreement puts access, retention and offboarding in the organization’s hands.",
+    "source_url": "https://airolloutframework.com/resources/business-enterprise-ai-plans/"
+  },
+  {
+    "question": "What should we do about employees already using personal AI accounts?",
+    "answer": "Don’t start with a ban — it drives use underground. Find out what’s being used and why, move the useful work onto a company plan, and use domain verification so new sign-ups with a company email join your workspace. Treat it as a visibility problem, not a discipline problem.",
+    "source_url": "https://airolloutframework.com/resources/business-enterprise-ai-plans/"
+  },
+  {
     "question": "How do I lead my team through AI if I don't know much about AI myself?",
     "answer": "You don't need to be the AI expert — you need to be the structure. Your team doesn't need you to explain how AI works or to have tested every tool. They need a clear, calm path forward: what's acceptable, what's not, and how nobody gets left behind. That's leadership, not technical expertise, and an experienced operations leader already knows how to provide it. The pressure to become an AI expert overnight is real, but it's a distraction from what your team actually needs, which is structure.",
     "source_url": "https://airolloutframework.com/resources/dont-know-ai-enough-to-lead-my-team/"
@@ -763,6 +798,41 @@
     "question": "Do employees need technical skills to learn AI?",
     "answer": "No. The employees who benefit most from structured AI training are usually the ones without a technical background — they're the ones currently guessing, copying what a coworker does, or avoiding AI tools entirely out of uncertainty. Good employee AI training assumes zero technical background and focuses on practical, everyday use.",
     "source_url": "https://airolloutframework.com/resources/how-to-train-employees-on-ai/"
+  },
+  {
+    "question": "Does Microsoft Copilot give people access to files they couldn’t open before?",
+    "answer": "No. Microsoft states that Copilot only surfaces organizational data a person already has at least view permission for. What changes is how easy that content is to find — which is why overshared files and sites become a real risk once Copilot is switched on.",
+    "source_url": "https://airolloutframework.com/resources/microsoft-copilot-readiness/"
+  },
+  {
+    "question": "What is oversharing in Microsoft 365?",
+    "answer": "Content that’s accessible to far more people than it should be. Common causes are sites or files shared with “Everyone” or “Everyone except external users”, “Anyone” and company-wide sharing links that never expire, broken permission inheritance, and old sites nobody owns.",
+    "source_url": "https://airolloutframework.com/resources/microsoft-copilot-readiness/"
+  },
+  {
+    "question": "What is Restricted Content Discovery?",
+    "answer": "A SharePoint Advanced Management setting that hides selected SharePoint sites from Microsoft Copilot and organization-wide search while you review them. It doesn’t change permissions — people with access can still open the site — and it’s designed to be temporary. It requires your organization to be licensed for Copilot.",
+    "source_url": "https://airolloutframework.com/resources/microsoft-copilot-readiness/"
+  },
+  {
+    "question": "Is Restricted SharePoint Search still available?",
+    "answer": "Microsoft is retiring it. New enablement has been blocked since 31 July 2026, and Microsoft recommends Restricted Content Discovery for controlling what Copilot can discover. Verified against Microsoft Learn, 30 September 2026.",
+    "source_url": "https://airolloutframework.com/resources/microsoft-copilot-readiness/"
+  },
+  {
+    "question": "Does Microsoft use our Copilot prompts to train its models?",
+    "answer": "Microsoft states that prompts, responses and data accessed through Microsoft Graph aren’t used to train the foundation models Microsoft Copilot uses. Verified against Microsoft Learn, 30 September 2026.",
+    "source_url": "https://airolloutframework.com/resources/microsoft-copilot-readiness/"
+  },
+  {
+    "question": "Do we need SharePoint Advanced Management to get ready for Copilot?",
+    "answer": "It’s the main set of tools Microsoft recommends for finding and fixing SharePoint oversharing — content management assessment, data access governance reports, site access reviews and Restricted Content Discovery — and Microsoft’s deployment guidance says it’s included with Copilot licences.",
+    "source_url": "https://airolloutframework.com/resources/microsoft-copilot-readiness/"
+  },
+  {
+    "question": "How long does Microsoft Copilot readiness take?",
+    "answer": "It depends on how much content you have and how widely it’s shared, not on a fixed timeline. Tie each rollout phase to clean-up milestones — for example, every high-risk site fixed or restricted before the pilot, and each department’s sites fixed before that department is licensed — rather than to a date.",
+    "source_url": "https://airolloutframework.com/resources/microsoft-copilot-readiness/"
   },
   {
     "question": "What should I do when half my team uses AI and half refuses?",
