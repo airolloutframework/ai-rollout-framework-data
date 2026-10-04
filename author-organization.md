@@ -65,8 +65,8 @@ organizational communications, customer education.
 
 AI Rollout Framework provides structured AI adoption resources for
 managers and directors at small and mid-sized organizations — the
-company behind the AI Capability Rollout Framework, The Complete AI
-Learning Path (employee training bundle), and The AI Rollout Podcast.
+company behind the AI Capability Rollout Framework, AI at Work (the
+employee AI training course), and The AI Rollout Podcast.
 
 ### Origin and continuity
 

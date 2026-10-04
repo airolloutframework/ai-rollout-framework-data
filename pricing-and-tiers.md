@@ -3,11 +3,13 @@
 > **⚠️ High drift risk.** Pricing is the fastest-changing fact on this
 > site. `api/framework.json` is the source of truth (the MCP server's
 > `get_pricing` tool reads it directly); this file mirrors it. The
-> framework and Learning Path figures were verified against the live site
+> framework figures were verified against the live site
 > on 2026-08-20; the Executive Suite figures were added from
 > `api/framework.json` on 2026-09-23, and the Rollout & Operations Kit
 > contents on 2026-09-30. On 2026-09-30 the Executive Suite became the
 > lead offer at $299 (upgrade $200); the framework on its own stays $99.
+> On 2026-10-04 AI at Work (per-seat employee training) replaced the retired
+> Complete AI Learning Path bundle.
 > **Include this file in any future pricing-consistency audit sweep**, alongside the HTML pages and
 > `api/framework.json`.
 
@@ -85,22 +87,34 @@ or smaller teams.
 
 No subscription, no renewal fee, no hidden charges.
 
-## The Complete AI Learning Path (4-Course Master Bundle)
+## AI at Work: Essentials for Every Employee
+A 49-minute AI training course for every employee: seven modules (49:19 in
+total), 10 PDF downloads, 2 interactive tools (Prompt Builder and Time
+Savings Tracker), a 12-question quiz (pass mark 75%, unlimited retakes), a
+completion certificate, and optional captions and transcripts.
 
 | | |
 |---|---|
-| **Price** | $24.99 USD per user |
-| **Billing** | One-time payment, per seat |
-| **Access** | Lifetime — all four courses |
-| **Multi-seat** | Email info@airolloutframework.com with the number of seats for organization pricing |
-| **Checkout** | [airolloutframework.com/enroll?product=team-training](https://airolloutframework.com/enroll?product=team-training) |
+| **1 to 24 seats** | $39 per seat |
+| **25 to 99 seats** | $29 per seat |
+| **100 or more seats** | $19 per seat |
+| **Co-branding** | $249 one time per company; free at 100 or more seats |
+| **Rollout Pack** | $899: the Executive Suite plus 25 AI at Work seats (saves $125 against $299 + 25 × $29 = $1,024) |
+| **Billing** | One-time payment |
+| **Volume pricing** | The tier rate applies to the whole order: 24 seats = $936; 25 seats = $725; 99 seats = $2,871; 100 seats = $1,900 |
+| **Order size** | No minimum (a single seat is $39); 1 to 500 seats per order |
+| **Guarantee** | 30-day money-back guarantee on AI at Work seats |
+| **Checkout** | [airolloutframework.com/enroll?product=ai-at-work](https://airolloutframework.com/enroll?product=ai-at-work); Rollout Pack: `/enroll?product=ai-at-work-pack` |
 | **Landing page** | [airolloutframework.com/employee-training](https://airolloutframework.com/employee-training) |
-| **Free entry point** | Free sample pack — one preview lesson from each course, a starter PDF, a free audiobook, and the full syllabus |
+| **Free entry point** | Module 1 video, its transcript and the My AI Goals Worksheet, open with no email gate |
 
-No subscription, no renewal fee. No money-back guarantee is currently
-published for this tier on the live site (only the framework and the
-Executive Suite have a stated 30-day guarantee) — do not imply one
-exists here.
+Full customization (your wording, approved tools and your contacts in the
+reporting guide) is quoted after a short conversation. LMS delivery is not
+priced: the page says only "Using an LMS? Ask us about options." No refund
+rule for co-branding is published; do not state one.
+
+The buyer manages seats on a seat page (enrollment link, allowed email
+domains, employee progress). Buying seats does not use one.
 
 ## What each tier is for
 
@@ -115,13 +129,15 @@ The products are complementary, not competing:
 - **Framework only ($99)** is the complete 90-day framework on its own,
   a lighter option for individual managers or smaller teams leading
   AI adoption — governance, pilots and measurement.
-- **The Complete AI Learning Path ($24.99/user)** is the employee-
-  facing companion — practical AI skills training for the people
-  actually using AI day to day. It is standalone AI-literacy training
-  and does not tie into the 90-day framework's phase structure.
+- **AI at Work (from $19 per seat)** is the employee-facing companion:
+  a 49-minute course that teaches every employee what's safe to share,
+  how to ask, and how to check AI's work. Leaders set the policy; staff
+  learn to work within it.
+- **The Rollout Pack ($899)** combines the two for one organization: the
+  Executive Suite for the leader plus 25 AI at Work seats.
 
-Many organizations use both: the Framework to lead the rollout, the
-Learning Path to build team-wide capability.
+Many organizations use both: the Framework to lead the rollout, AI at
+Work to build team-wide capability.
 
 ## Checkout mechanics (for reference, not pricing)
 
@@ -129,7 +145,11 @@ Checkout runs on-domain via Stripe, embedded on `/enroll`. The product
 is selected by a `product` query parameter (`/enroll` defaults to the
 $299 Executive Suite bundle, with a visible switch to the framework;
 `/enroll?product=framework` selects the $99 framework;
-`/enroll?product=team-training` the $24.99 bundle;
+`/enroll?product=ai-at-work` AI at Work seats (the buyer picks the seat
+count and co-branding on our page; the server picks the tier price and
+sends Stripe a fixed quantity); `/enroll?product=ai-at-work-pack` the
+$899 Rollout Pack; `/enroll?product=team-training` (the retired Learning Path
+bundle) redirects to `/employee-training`;
 `/enroll?product=executive` the $299 Executive Suite bundle;
 `/enroll?product=executive-upgrade` the $200 upgrade, which the server
 only sells to a signed-in framework owner). If the embedded Stripe session fails to initialize, a hosted-
@@ -138,18 +158,22 @@ checkout fallback is used automatically — both paths route through
 
 ## Verification checklist for future audits
 
-- [ ] `$299`, `$200`, `$99` and `$24.99` figures match across:
+- [ ] `$299`, `$200`, `$99`, the AI at Work tiers (`$39`, `$29`, `$19`),
+      co-branding (`$249`) and the Rollout Pack (`$899`) match across:
       `api/framework.json`, `api/faq.json`, `framework.html`,
       `executive.html`, `employee-training.html`, `index.html`,
       `llms.txt`, `llms-full.txt`, and the MCP `get_pricing` output
-- [ ] `/enroll`, `/enroll?product=framework`, `/enroll?product=team-training`,
-      `/enroll?product=executive` and `/enroll?product=executive-upgrade`
-      all resolve and route to the correct product
+- [ ] `/enroll`, `/enroll?product=framework`, `/enroll?product=ai-at-work`,
+      `/enroll?product=ai-at-work-pack`, `/enroll?product=executive` and
+      `/enroll?product=executive-upgrade` all resolve and route to the
+      correct product; `/enroll?product=team-training` redirects to
+      `/employee-training`
 - [ ] No stray reference to a third-party checkout domain (Gumroad,
       aibeginner.net, etc.)
 - [ ] Money-back guarantee language is only claimed for the $99
-      framework and the Executive Suite ($299 bundle / $200 upgrade)
-- [ ] **Yearly (manual):** `priceValidUntil` on the four Offers
+      framework, the Executive Suite ($299 bundle / $200 upgrade), AI at
+      Work seats and the Rollout Pack
+- [ ] **Yearly (manual):** `priceValidUntil` on the Offers
       (`executive.html`, `framework.html`, `index.html`,
       `employee-training.html`) is 2027-12-31. Push it out a year before
       it lapses — an expired date can suppress Google's price snippet.

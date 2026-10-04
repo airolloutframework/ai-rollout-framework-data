@@ -80,7 +80,8 @@ Source: `api/framework.json` (the same file backing the existing
 Returns current pricing and checkout URLs for every product, in the
 order the site presents them: the Framework + Executive Suite bundle
 (the recommended offer, with its $200 upgrade for existing framework
-owners), the framework on its own, and the Learning Path.
+owners), the framework on its own, and AI at Work (per-seat tiers,
+co-branding and the Rollout Pack).
 `recommendedOffer` names the recommended product's key.
 **Highest drift-risk tool** — sourced live from `api/framework.json`, the
 same file flagged for inclusion in any future pricing-consistency audit.
@@ -101,12 +102,6 @@ the Executive Suite was added; the response now also carries an
     "price": {"amount": 99, "currency": "USD", "type": "one-time"},
     "checkoutUrl": "https://airolloutframework.com/enroll",
     "url": "https://airolloutframework.com/framework"
-  },
-  "teamTraining": {
-    "name": "The Complete AI Learning Path (4-Course Master Bundle)",
-    "price": {"amount": 24.99, "currency": "USD", "type": "one-time", "perSeat": true},
-    "checkoutUrl": "https://airolloutframework.com/enroll?product=team-training",
-    "url": "https://airolloutframework.com/employee-training"
   },
   "lastUpdated": "2026-08-20"
 }

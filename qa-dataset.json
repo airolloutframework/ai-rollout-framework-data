@@ -140,43 +140,58 @@
     "source_url": "https://airolloutframework.com/executive"
   },
   {
-    "question": "What is The Complete AI Learning Path (4-Course Master Bundle)?",
-    "answer": "The Complete AI Learning Path is a four-course bundle that gives employees a practical, self-paced foundation in using AI confidently and responsibly at work. It's the practical skills layer that complements organization-wide AI adoption — built for individual employees, not just the person leading the rollout.",
+    "question": "What should AI training for employees cover?",
+    "answer": "Five things: what's safe to share, how to ask, using AI on real work, checking the answer, and what to do when something slips.",
     "source_url": "https://airolloutframework.com/employee-training"
   },
   {
-    "question": "Is there a free way to get started before buying?",
-    "answer": "Yes. A free sample pack gives you a risk-free test drive of the bundle — one preview lesson from each of the four courses, a plain-English starter PDF, a free audiobook, and the full syllabus. It's a no-cost starting point before unlocking the full four-course bundle.",
+    "question": "How long does the course take?",
+    "answer": "Under 50 minutes: seven modules, self-paced.",
     "source_url": "https://airolloutframework.com/employee-training"
   },
   {
-    "question": "What's included in each course beyond the video lessons?",
-    "answer": "Each course runs about 70–90 minutes and includes a downloadable toolkit and skill pack with real takeaway materials, plus a course guide. The full bundle also includes one audiobook version covering all four courses, plus access to the AI Capability Community.",
+    "question": "Do employees need technical experience?",
+    "answer": "No. If they can write an email, they can do this.",
     "source_url": "https://airolloutframework.com/employee-training"
   },
   {
-    "question": "How is this different from the AI Capability Rollout Framework?",
-    "answer": "The AI Capability Rollout Framework is a structured 90-day system for the manager or director leading organization-wide AI adoption — governance, pilots, and measurement. The Complete AI Learning Path is the employee-facing companion: practical skills training for the people actually using AI day to day. Many organizations use both — the Framework to lead the rollout, the bundle to build team-wide capability.",
+    "question": "Which AI tools does it work with?",
+    "answer": "The techniques work in any approved tool, including Copilot, ChatGPT, Gemini and Claude. The demos use Claude and Gemini.",
     "source_url": "https://airolloutframework.com/employee-training"
   },
   {
-    "question": "Do I need a technical background?",
-    "answer": "No. All four courses are written for a general audience with no coding or technical experience required.",
+    "question": "Can I learn AI for free?",
+    "answer": "Free resources exist. This course is built for workplace rules, and Module 1 and its worksheet are free to try.",
     "source_url": "https://airolloutframework.com/employee-training"
   },
   {
-    "question": "Is this self-paced?",
-    "answer": "Yes. All four courses are available immediately after purchase and can be completed on your own schedule.",
+    "question": "How does seat pricing work?",
+    "answer": "The tier rate applies to the whole order: $39 for 1 to 24 seats, $29 for 25 to 99, $19 for 100 or more.",
     "source_url": "https://airolloutframework.com/employee-training"
   },
   {
-    "question": "Why might the course videos look different from this page?",
-    "answer": "Some intros and outros still carry earlier branding while we update them — the instruction, platform, and your purchase are entirely AI Rollout Framework.",
+    "question": "Can we add our logo?",
+    "answer": "Yes. Co-branding is $249 once, free at 100+ seats.",
     "source_url": "https://airolloutframework.com/employee-training"
   },
   {
-    "question": "Can I purchase this for my whole team?",
-    "answer": "Yes. If you're equipping a team or organization, use the form above to share a few details — bulk pricing and organization-branded versions are both available for larger teams.",
+    "question": "Is there a guarantee?",
+    "answer": "Yes. 30 days, money back.",
+    "source_url": "https://airolloutframework.com/employee-training"
+  },
+  {
+    "question": "Do employees get a certificate?",
+    "answer": "Yes, after a 12-question quiz. The pass mark is 75%, with unlimited retakes.",
+    "source_url": "https://airolloutframework.com/employee-training"
+  },
+  {
+    "question": "Does it work in our LMS?",
+    "answer": "Using an LMS? Ask us about options.",
+    "source_url": "https://airolloutframework.com/employee-training"
+  },
+  {
+    "question": "Are captions available?",
+    "answer": "Yes, on every video. They're off by default; viewers turn them on with the CC button.",
     "source_url": "https://airolloutframework.com/employee-training"
   },
   {

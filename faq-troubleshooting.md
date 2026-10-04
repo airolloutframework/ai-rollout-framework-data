@@ -118,18 +118,28 @@ figures.
 
 **Is there a money-back guarantee?**
 Yes. The $299 Framework + Executive Suite, the $200 Executive Suite
-upgrade and the $99 framework-only option all carry it: if you work through it and
-don't feel it was worth the investment, contact within 30 days for a
-full refund. No questions, no hoops. (No guarantee is currently
-published for the $24.99 Learning Path bundle.)
+upgrade, the $99 framework-only option and AI at Work seats all carry
+it: if you don't feel it was worth the investment, contact us within 30
+days for a full refund. No questions, no hoops.
 
-**How is the Learning Path different from the Framework?**
+**How is AI at Work different from the Framework?**
 The AI Capability Rollout Framework is a structured 90-day system for
 the manager or director leading organization-wide AI adoption —
-governance, pilots, and measurement. The Complete AI Learning Path is
-the employee-facing companion: standalone practical skills training for
-the people actually using AI day to day. It does not tie into the
-90-day framework's phase structure.
+governance, pilots, and measurement. AI at Work is the employee-facing
+companion: a 49-minute course that teaches every employee what's safe
+to share, how to ask, and how to check AI's work, ending with a quiz and
+a certificate. Leaders set the policy; staff learn to work within it.
+
+**What should AI training for employees cover?**
+Five things: what's safe to share, how to ask, using AI on real work,
+checking the answer, and what to do when something slips. AI at Work
+covers all five in seven short modules (49 minutes in total).
+
+**How does AI at Work seat pricing work?**
+The tier rate applies to the whole order: $39 per seat for 1 to 24
+seats, $29 for 25 to 99, $19 for 100 or more. So 25 seats ($725) cost
+less than 24 ($936). Co-branding is $249 once, free at 100+ seats. The
+Rollout Pack (Executive Suite plus 25 seats) is $899.
 
 **What is the AI Executive Suite and how much does it cost?**
 The AI Executive Suite is everything in the AI Capability Rollout

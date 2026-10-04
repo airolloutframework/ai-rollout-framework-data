@@ -5,6 +5,29 @@ commit history — not a list of every commit, but the milestones that
 changed what the site says, how it's structured, or how discoverable
 it is.
 
+## 2026-10-04
+
+- Launched [AI at Work: Essentials for Every Employee](https://airolloutframework.com/employee-training),
+  a 49-minute AI training course for every employee: seven modules, 10
+  downloads, a 12-question quiz, a completion certificate, two
+  interactive tools (Prompt Builder and Time Savings Tracker), and
+  optional captions and transcripts. Seats are $39 (1 to 24), $29 (25
+  to 99) or $19 (100 or more), with the tier rate applied to the whole
+  order; co-branding is $249 once, free at 100+ seats; the Rollout Pack
+  (Executive Suite plus 25 seats) is $899. 30-day money-back guarantee.
+  Module 1, its transcript and its worksheet are free with no email
+  gate.
+- Buyers get a seat page (enrollment link, allowed email domains,
+  employee progress and CSV export); employees get progress tracking,
+  a server-graded quiz and a downloadable certificate. Course videos
+  stream from a private container through short-lived signed links.
+- Retired The Complete AI Learning Path. Its checkout link now
+  redirects to `/employee-training`; the "Team
+  Training" nav item is now "AI at Work". `api/framework.json`,
+  `api/faq.json`, `llms.txt`, `llms-full.txt`, the docs and the MCP
+  server (`get_pricing`, plus a new public `get_ai_at_work_course`
+  tool) carry the new course.
+
 ## 2026-09-30
 
 - Made the Framework + Executive Suite bundle the lead offer at $299
