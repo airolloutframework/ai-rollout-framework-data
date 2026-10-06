@@ -21,7 +21,7 @@ Content-Type: application/json
 - **Auth:** none
 - **CORS:** `Access-Control-Allow-Origin: *`
 - **Protocol versions supported:** `2025-06-18`, `2025-03-26`, `2024-11-05`
-- **Server info:** `{ "name": "ai-rollout-framework", "version": "1.0.0" }`
+- **Server info:** `{ "name": "ai-rollout-framework", "version": "1.0.2" }` (1.0.2 since 2026-10-06; the captured responses below predate it)
 
 ## Connecting
 
@@ -42,7 +42,12 @@ to discover the 5 tools below, then `tools/call` to use one.
 ### 1. `get_framework_overview`
 
 Returns the AI Capability Rollout Framework's three implementation
-phases, four capability pillars, and core positioning statement.
+phases, four capability pillars, and core positioning statement, plus the
+recommended offer with everything the Executive Suite includes (among
+them one AI at Work seat) and, since 2026-10-06, a `community` object: the
+Discord community's page and invite link, its open and members-only
+channels, and how customers unlock the members-only channels. Public
+facts only; no member data.
 
 **Input:** none (`{}`)
 
@@ -81,7 +86,8 @@ Returns current pricing and checkout URLs for every product, in the
 order the site presents them: the Framework + Executive Suite bundle
 (the recommended offer, with its $200 upgrade for existing framework
 owners), the framework on its own, and AI at Work (per-seat tiers,
-co-branding and the Rollout Pack).
+co-branding and the Rollout Pack). The tool description's prices are
+built from `api/framework.json` at load time, so they cannot drift from it.
 `recommendedOffer` names the recommended product's key.
 **Highest drift-risk tool** — sourced live from `api/framework.json`, the
 same file flagged for inclusion in any future pricing-consistency audit.

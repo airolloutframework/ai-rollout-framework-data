@@ -9,7 +9,11 @@
 > contents on 2026-09-30. On 2026-09-30 the Executive Suite became the
 > lead offer at $299 (upgrade $200); the framework on its own stays $99.
 > On 2026-10-04 AI at Work (per-seat employee training) replaced the retired
-> Complete AI Learning Path bundle.
+> Complete AI Learning Path bundle. On 2026-10-06 the AI at Work seat tiers
+> moved to 1–14 / 15–49 / 50+ (co-branding free from 50 seats), every
+> Executive Suite began including one AI at Work seat, the Suite gained the
+> AI Glossary for Leaders and the Leading Our AI Rollout deck, and the
+> community moved to Discord.
 > **Include this file in any future pricing-consistency audit sweep**, alongside the HTML pages and
 > `api/framework.json`.
 
@@ -33,7 +37,13 @@ Includes everything in the $99 framework, plus: the Board Briefing Pack
 90-day execution roadmaps for Sales, Operations, HR, Marketing and IT
 (HR, Marketing and IT added after launch), and the Executive Audio
 Masterclass (59 minutes of audio in 11 chaptered segments; M4A with
-chapter markers plus an MP3 fallback, released 2026-09-25), and the
+chapter markers plus an MP3 fallback, released 2026-09-25), the AI
+Glossary for Leaders (20-page PDF: plain-English definitions across ten
+topic areas, with an A to Z index; added 2026-10-06), Leading Our AI
+Rollout (15 editable PowerPoint slides with speaker notes for presenting
+the rollout; policy-level; added 2026-10-06), one AI at Work seat for the
+buyer (added 2026-10-06; existing Suite owners receive it too), access to
+both members-only channels in the Discord community, and the
 Rollout & Operations Kit (added 2026-09-30): nine templates for running
 the rollout day to day —
 
@@ -95,13 +105,13 @@ completion certificate, and optional captions and transcripts.
 
 | | |
 |---|---|
-| **1 to 24 seats** | $39 per seat |
-| **25 to 99 seats** | $29 per seat |
-| **100 or more seats** | $19 per seat |
-| **Co-branding** | $249 one time per company; free at 100 or more seats |
-| **Rollout Pack** | $899: the Executive Suite plus 25 AI at Work seats (saves $125 against $299 + 25 × $29 = $1,024) |
+| **1 to 14 seats** | $39 per seat |
+| **15 to 49 seats** | $29 per seat |
+| **50 or more seats** | $19 per seat |
+| **Co-branding** | $249 one time per company; free at 50 or more seats |
+| **Rollout Pack** | $899: the Executive Suite plus 25 additional AI at Work seats, 26 in all including the seat the Suite already includes ($600 more than the Suite; saves $125 against $299 + 25 × $29 = $1,024) |
 | **Billing** | One-time payment |
-| **Volume pricing** | The tier rate applies to the whole order: 24 seats = $936; 25 seats = $725; 99 seats = $2,871; 100 seats = $1,900 |
+| **Volume pricing** | The tier rate applies to the whole order: 14 seats = $546; 15 seats = $435; 49 seats = $1,421; 50 seats = $950 |
 | **Order size** | No minimum (a single seat is $39); 1 to 500 seats per order |
 | **Guarantee** | 30-day money-back guarantee on AI at Work seats |
 | **Checkout** | [airolloutframework.com/enroll?product=ai-at-work](https://airolloutframework.com/enroll?product=ai-at-work); Rollout Pack: `/enroll?product=ai-at-work-pack` |
@@ -114,7 +124,10 @@ priced: the page says only "Using an LMS? Ask us about options." No refund
 rule for co-branding is published; do not state one.
 
 The buyer manages seats on a seat page (enrollment link, allowed email
-domains, employee progress). Buying seats does not use one.
+domains, employee progress). Buying seats does not use one: a buyer who
+wants to take the course claims a seat on the seat page. The exception is
+the seat included with the Executive Suite, which is assigned to the
+buyer automatically and counts as used.
 
 ## What each tier is for
 
@@ -124,8 +137,9 @@ The products are complementary, not competing:
   in the Framework, plus the board-level layer — for the leader who also
   has to present the programme upward, to a board or leadership team. It
   adds the investment case, ROI model, AI policy templates, department
-  roadmaps, the Rollout & Operations Kit and the Executive Audio
-  Masterclass.
+  roadmaps, the Rollout & Operations Kit, the Executive Audio
+  Masterclass, the AI Glossary for Leaders, the Leading Our AI Rollout
+  deck, and one AI at Work seat for the buyer.
 - **Framework only ($99)** is the complete 90-day framework on its own,
   a lighter option for individual managers or smaller teams leading
   AI adoption — governance, pilots and measurement.
@@ -133,8 +147,9 @@ The products are complementary, not competing:
   a 49-minute course that teaches every employee what's safe to share,
   how to ask, and how to check AI's work. Leaders set the policy; staff
   learn to work within it.
-- **The Rollout Pack ($899)** combines the two for one organization: the
-  Executive Suite for the leader plus 25 AI at Work seats.
+- **The Rollout Pack ($899)** is the upgrade path for Executive Suite
+  buyers: the Suite plus 25 additional AI at Work seats, 26 in all
+  including the seat the Suite already includes.
 
 Many organizations use both: the Framework to lead the rollout, AI at
 Work to build team-wide capability.

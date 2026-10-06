@@ -136,20 +136,38 @@ checking the answer, and what to do when something slips. AI at Work
 covers all five in seven short modules (49 minutes in total).
 
 **How does AI at Work seat pricing work?**
-The tier rate applies to the whole order: $39 per seat for 1 to 24
-seats, $29 for 25 to 99, $19 for 100 or more. So 25 seats ($725) cost
-less than 24 ($936). Co-branding is $249 once, free at 100+ seats. The
-Rollout Pack (Executive Suite plus 25 seats) is $899.
+The tier rate applies to the whole order: $39 for 1 to 14 seats, $29
+for 15 to 49, $19 for 50 or more. So 15 seats ($435) cost less than 14
+($546). Co-branding is $249 once, free at 50+ seats. Every Executive
+Suite includes one seat, and the Rollout Pack ($899) is the Executive
+Suite plus 25 additional seats, 26 in all.
 
 **What is the AI Executive Suite and how much does it cost?**
 The AI Executive Suite is everything in the AI Capability Rollout
 Framework, plus the board-level layer: an editable Board Briefing Pack, the AI ROI & Impact
 Calculator, the AI Governance & Policy Kit, 90-day department
-roadmaps, the Rollout & Operations Kit (nine templates for running the rollout) and a 59-minute Executive Audio Masterclass. It is the recommended option, sold as a bundle with the framework for
+roadmaps, the Rollout & Operations Kit (nine templates for running the
+rollout), a 59-minute Executive Audio Masterclass, the AI Glossary for
+Leaders (a 20-page PDF), the Leading Our AI Rollout deck (15 editable
+slides with speaker notes) and one seat of AI at Work, the 49-minute
+employee course. It is the recommended option, sold as a bundle with the framework for
 $299 one-time, with lifetime access and a 30-day money-back guarantee.
 Existing framework owners can upgrade for $200. The framework is also
 available on its own for $99. See
 [pricing-and-tiers.md](pricing-and-tiers.md).
+
+**Does the Executive Suite include any AI at Work training?**
+Yes. Every Executive Suite includes one seat of AI at Work, our
+49-minute employee course, assigned to you so you can take it before
+rolling it out to your team. Add more seats any time, or choose the
+Rollout Pack.
+
+**How do I join the community?**
+Join our Discord community from airolloutframework.com/community.
+Anyone can use the open channels. Customers also get members-only
+channels: email info@airolloutframework.com with your Discord username
+and the email you purchased with, and we'll add your access, usually
+within a day.
 
 **How is the Executive Suite different from the Framework?**
 The $99 framework is the complete 90-day system for leading an AI

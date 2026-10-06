@@ -5,6 +5,32 @@ commit history — not a list of every commit, but the milestones that
 changed what the site says, how it's structured, or how discoverable
 it is.
 
+## 2026-10-06
+
+- AI at Work seat tiers moved to $39 for 1 to 14 seats, $29 for 15 to 49
+  and $19 for 50 or more, still applied to the whole order (1 to 500
+  seats per order). Co-branding ($249 once) is now free from 50 seats.
+  The seat prices themselves are unchanged.
+- Every Executive Suite now includes one AI at Work seat, assigned to the
+  buyer, for new purchases, the $200 upgrade and the Rollout Pack.
+  Existing Suite owners receive it too. Later seat purchases by the same
+  email add to the same organization and keep the same enrollment link.
+- The Rollout Pack ($899) is now described as the upgrade path for
+  Executive Suite buyers: the Suite plus 25 additional seats, 26 in all
+  including the seat the Suite already includes ($600 more than the
+  Suite; saves $125 versus buying separately).
+- Two new Executive Suite files: the AI Glossary for Leaders (20-page
+  PDF, ten topic areas, A to Z index) and Leading Our AI Rollout (15
+  editable PowerPoint slides with speaker notes).
+- The community moved to Discord. `/community/` is now its landing page;
+  the earlier on-site discussion forum was retired and its URLs redirect
+  there. The $99 framework now lists access to the members-only AI
+  Rollout Framework channel; Executive Suite owners get both
+  members-only channels.
+- The MCP server is version 1.0.2: `get_framework_overview` now carries
+  the community and the full Executive Suite contents, and tool
+  descriptions read their prices from `api/framework.json`.
+
 ## 2026-10-04
 
 - Launched [AI at Work: Essentials for Every Employee](https://airolloutframework.com/employee-training),

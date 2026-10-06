@@ -106,7 +106,7 @@ every phase touches every pillar.
   metrics, ownership, executive-ready summary)
 - 90-Day AI Capability Roadmap
 - Video guidance at every stage
-- AI Capability Community access
+- Access to the members-only AI Rollout Framework channel in our Discord community
 
 ## Who it's for
 
