@@ -30,12 +30,12 @@ Content-Type: application/json
 {"jsonrpc":"2.0","id":1,"method":"initialize","params":{"protocolVersion":"2025-06-18","clientInfo":{"name":"example-client","version":"1.0"}}}
 
 // Response (captured live, 2026-08-20)
-{"jsonrpc":"2.0","id":1,"result":{"protocolVersion":"2025-06-18","capabilities":{"tools":{}},"serverInfo":{"name":"ai-rollout-framework","version":"1.0.0"}}}
+{"jsonrpc":"2.0","id":1,"result":{"protocolVersion":"2025-06-18","capabilities":{"tools":{}},"serverInfo":{"name":"ai-rollout-framework","version":"1.0.2"}}}
 ```
 
 Follow with `notifications/initialized` (a notification — send it with no
 `id` field; the server returns HTTP 202 with no body), then `tools/list`
-to discover the 5 tools below, then `tools/call` to use one.
+to discover the 6 tools below, then `tools/call` to use one.
 
 ## Tools
 
@@ -124,7 +124,19 @@ matching item (the shadow-AI governance question). Omitting `topic`
 returns all 14 items. Source: `api/faq.json`, mirroring
 [faq-troubleshooting.md](faq-troubleshooting.md).
 
-### 4. `search_knowledge_base`
+### 4. `get_ai_at_work_course`
+
+Returns the public outline of AI at Work: Essentials for Every Employee,
+the 49-minute AI training course for employees: the seven modules with
+titles, runtimes, descriptions and download names, what's included (quiz,
+certificate, tools, captions), the free preview, seat pricing tiers,
+co-branding, the seat every Executive Suite includes, the Rollout Pack and
+the 30-day guarantee. Public information only (no transcripts or quiz
+content). Sourced from `api/framework.json` (`aiAtWork`).
+
+**Input:** none (`{}`)
+
+### 5. `search_knowledge_base`
 
 Keyword search across the AI Rollout Framework knowledge base
 (methodology, definitions, positioning, changelog). Each result links to
@@ -137,7 +149,7 @@ without `query` returns a tool-level error (`isError: true`), verified.
 returns matching sections from `entity-definitions.md` and
 `positioning-comparison.md`, each with a `url` back to the full file.
 
-### 5. `assess_ai_readiness`
+### 6. `assess_ai_readiness`
 
 Runs the real 16-question AI Readiness Score assessment server-side and
 returns a readiness stage and recommendation — the same computation the

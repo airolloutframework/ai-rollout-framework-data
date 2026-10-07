@@ -5,8 +5,31 @@ commit history — not a list of every commit, but the milestones that
 changed what the site says, how it's structured, or how discoverable
 it is.
 
+## 2026-10-07
+
+- Markdown variants are now generated: `tools/build-md.py` renders each
+  page's visible <main> as Markdown (frontmatter, full-URL links, every FAQ
+  question and answer) and `--check` reports drift. All 39 .md files were
+  regenerated; every indexable page now advertises its .md with a
+  `<link rel="alternate" type="text/markdown">` in the head. `npm run check`
+  runs the generator check with the other verify scripts. The framework
+  page's empty "course outline" box (no button) was removed; the AI at
+  Work page shows a worked seat-price example; the homepage transcript
+  links its caption and transcript files.
+- Paid Framework deliverables are now served only to signed-in members.
+
 ## 2026-10-06
 
+- Homepage: a new 2:22 overview video, "The AI Rollout Framework in Two
+  Minutes", now sits in the hero under the buttons (Azure `airollout-media`,
+  captions off by default with a CC toggle, full transcript on the page,
+  its own VideoObject). Directly under it, a two-card "Your next step"
+  strip: the free AI Readiness Assessment, then the Executive Suite. The
+  three Start-here cards are gone from the hero, and the 2:49 Lesson 1
+  preview moved, unchanged, into the framework section.
+- The captions toggle is now one shared helper in `js/site.js` (styles in
+  `css/site.css`), used by the homepage and the AI at Work player, with the
+  same remembered choice across the site.
 - AI at Work seat tiers moved to $39 for 1 to 14 seats, $29 for 15 to 49
   and $19 for 50 or more, still applied to the whole order (1 to 500
   seats per order). Co-branding ($249 once) is now free from 50 seats.
