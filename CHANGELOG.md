@@ -7,6 +7,7 @@ it is.
 
 ## 2026-10-07
 
+- New resource page maps the NIST AI RMF's four functions to the 90-day system; FAQs now say "Controlled Pilot" to match /framework.
 - AI at Work page now states acceptable-use training, seat page and certificate ID; schema disambiguation added.
 - Markdown variants are now generated: `tools/build-md.py` renders each
   page's visible <main> as Markdown (frontmatter, full-URL links, every FAQ
