@@ -7,6 +7,7 @@ it is.
 
 ## 2026-10-08
 
+- Social sharing: a default 1200×630 share image (`/images/og-default.jpg`) is now set as og:image and twitter:image on 38 indexable pages, and og:site_name is "AI Rollout Framework" on every page.
 - Hardening: Stripe webhook grants access only for paid sessions (and handles delayed-payment events), baseline security headers added site-wide, muted-text contrast raised to WCAG AA.
 
 ## 2026-10-07
