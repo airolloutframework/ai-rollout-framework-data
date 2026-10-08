@@ -5,6 +5,10 @@ commit history — not a list of every commit, but the milestones that
 changed what the site says, how it's structured, or how discoverable
 it is.
 
+## 2026-10-08
+
+- Hardening: Stripe webhook grants access only for paid sessions (and handles delayed-payment events), baseline security headers added site-wide, muted-text contrast raised to WCAG AA.
+
 ## 2026-10-07
 
 - New resource page explains EU AI Act Article 4 (AI literacy) and what records to keep; general information, not legal advice.
