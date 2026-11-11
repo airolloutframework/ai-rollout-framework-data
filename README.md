@@ -92,7 +92,10 @@ schema):
     "https://podcasts.apple.com/us/podcast/the-ai-rollout-podcast/id1853884118",
     "https://www.saashub.com/ai-adoption-for-managers-and-directors-alternatives",
     "https://github.com/airolloutframework",
-    "https://www.youtube.com/@AIRolloutFramework"
+    "https://www.youtube.com/@AIRolloutFramework",
+    "https://glama.ai/mcp/connectors/com.airolloutframework/ai-rollout-framework",
+    "https://mcpi.app/servers/ai-capability-rollout-framework",
+    "https://mcpbeat.com/mcp-servers/airolloutframework/ai-rollout-framework/"
   ]
 }
 ```

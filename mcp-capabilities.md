@@ -31,6 +31,13 @@ Content-Type: application/json
   `email_me_the_kit` is the only tool that writes and needs the user's
   explicit request and consent
 - **Discovery manifest:** [`/.well-known/mcp.json`](https://airolloutframework.com/.well-known/mcp.json)
+- **MCP Server Card (SEP-2127):** [`/mcp/server-card`](https://airolloutframework.com/mcp/server-card),
+  served as `application/mcp-server-card+json`. Identity, transport and
+  supported protocol versions only; by design a Server Card lists no tools
+  (call `tools/list`).
+- **AI Catalog:** [`/.well-known/ai-catalog.json`](https://airolloutframework.com/.well-known/ai-catalog.json),
+  served as `application/ai-catalog+json`, with one entry pointing to the
+  Server Card
 
 ## Connecting
 
