@@ -6,7 +6,7 @@
   },
   {
     "question": "What is the AI Capability Rollout Framework?",
-    "answer": "The AI Capability Rollout Framework is a structured 90-day AI adoption system for managers and directors at small and mid-sized organizations. It includes 13 numbered implementation tools across three stage-gate phases — Establish Clarity & Guardrails (Days 1–30), Introduce a Controlled Pilot (Days 31–60), and Measure, Formalize & Scale (Days 61–90). Each phase ends with a formal leadership decision gate before the next stage begins.",
+    "answer": "The AI Capability Rollout Framework is a structured 90-day AI adoption system for managers and directors at small and mid-sized organizations. It includes 13 numbered implementation tools across three stage-gate phases — Establish Clarity & Guardrails (Days 1–30), Controlled Pilot (Days 31–60), and Measure, Formalize & Scale (Days 61–90). Each phase ends with a formal leadership decision gate before the next stage begins.",
     "source_url": "https://airolloutframework.com/"
   },
   {
@@ -71,7 +71,7 @@
   },
   {
     "question": "Who is the AI Capability Rollout Framework built for?",
-    "answer": "It is built for managers and directors at small and mid-sized organizations — typically 10 to 2,000 employees — who are responsible for workflows, teams, and outcomes. Common titles include Director of Operations, VP of Operations, Head of Process Improvement, and Operational Excellence Manager. The framework does not require a technical or coding background.",
+    "answer": "It is built for managers and directors at small and mid-sized organizations — typically 10 to 2,000 employees — who are responsible for workflows, teams, and outcomes. Common titles include Director of Operations, VP of Operations, Head of Process Improvement, and Operational Excellence Manager. It suits leaders who need to introduce AI with structure rather than letting it spread without guardrails. The framework does not require a technical or coding background.",
     "source_url": "https://airolloutframework.com/framework"
   },
   {
@@ -200,6 +200,16 @@
     "source_url": "https://airolloutframework.com/employee-training"
   },
   {
+    "question": "Is this AI acceptable use training we can send to every employee?",
+    "answer": "Yes. AI at Work is a 49-minute AI acceptable use training course: what data is safe to share, which tools are approved, how to prompt, and how to check AI's work. HR sends one enrollment link, each employee finishes seven modules, passes a 12-question quiz and downloads a completion certificate with a unique certificate ID.",
+    "source_url": "https://airolloutframework.com/employee-training"
+  },
+  {
+    "question": "How does HR see who has finished?",
+    "answer": "The buyer's seat page lists each employee with the modules they have completed, their quiz status (passed, attempted or not started) and whether their certificate is issued, and has a CSV download for your records.",
+    "source_url": "https://airolloutframework.com/employee-training"
+  },
+  {
     "question": "What does the AI Readiness Score measure?",
     "answer": "The AI Readiness Score measures organizational AI capability across four pillars: strategy and leadership clarity, governance and risk awareness, workflow integration, and capability and skill development. It produces an instant stage-based report with recommended next steps.",
     "source_url": "https://airolloutframework.com/ai-readiness-score"
@@ -216,7 +226,7 @@
   },
   {
     "question": "What is AI readiness?",
-    "answer": "AI readiness is how prepared an organization is to adopt AI responsibly and get real value from it. It describes the conditions around the technology — leadership clarity, governance, workflow fit, and team capability — rather than the tools themselves. Most organizations that feel behind on AI are not behind on technology; they are unstructured, which is a different problem with a different fix.",
+    "answer": "AI readiness is how prepared an organization is to adopt AI responsibly and get real value from it. It describes the conditions around the technology — leadership clarity, governance, workflow fit, and team capability — rather than the tools themselves. That distinction matters because most organizations that feel behind on AI are not behind on technology. They are unstructured, which is a different problem with a different fix. For the longer treatment, see AI readiness in the workplace.",
     "source_url": "https://airolloutframework.com/ai-readiness-score"
   },
   {
@@ -241,7 +251,7 @@
   },
   {
     "question": "What is on an AI readiness checklist?",
-    "answer": "A short AI readiness checklist covers six items: someone is formally named as the owner of AI decisions; written guardrails exist for data handling and output review; you know where AI is already being used; at least one candidate workflow is documented end to end; success is defined in measurable terms before the pilot starts; and your team knows what counts as acceptable use. If you cannot tick most of these, that is a structure gap rather than a technology gap.",
+    "answer": "A short AI readiness checklist you can run through before any pilot begins: Someone is formally named as the owner of AI decisions. Written guardrails exist for data handling and output review. You know where AI is already being used inside the organization. At least one candidate workflow is documented end to end. Success is defined in measurable terms before the pilot starts. Your team knows what counts as acceptable use, and what does not. If you cannot tick most of these, that is a structure gap rather than a technology gap — and it is exactly what the AI Readiness Score measures. If AI is already in use before any of this was agreed, start with the shadow AI guide instead.",
     "source_url": "https://airolloutframework.com/ai-readiness-score"
   },
   {
@@ -261,7 +271,7 @@
   },
   {
     "question": "What are the phases of the AI implementation roadmap?",
-    "answer": "In the AI Capability Rollout Framework, the roadmap runs across three stage-gated phases over 90 days: Establish Clarity & Guardrails (Days 1–30), Introduce a Controlled Pilot (Days 31–60), and Measure, Formalize & Scale (Days 61–90). Each phase closes with a leadership decision gate — you don't advance until the prior stage's work is documented.",
+    "answer": "In the AI Capability Rollout Framework, the roadmap runs across three stage-gated phases over 90 days: Establish Clarity & Guardrails (Days 1–30), Controlled Pilot (Days 31–60), and Measure, Formalize & Scale (Days 61–90). Each phase closes with a leadership decision gate — you don't advance until the prior stage's work is documented.",
     "source_url": "https://airolloutframework.com/ai-implementation-roadmap"
   },
   {
@@ -277,6 +287,16 @@
   {
     "question": "What is the 10/20/70 rule for AI?",
     "answer": "The 10/20/70 rule holds that AI success comes ~10% from algorithms, ~20% from technology and data, and ~70% from people and processes. It's the clearest case for a capability-first — not technology-first — rollout: most of the work, and most of the return, lives in how your team adopts AI, which is exactly what the framework's four pillars address.",
+    "source_url": "https://airolloutframework.com/ai-implementation-roadmap"
+  },
+  {
+    "question": "What is the difference between an AI implementation strategy, plan and roadmap?",
+    "answer": "The strategy is the set of decisions: the business problem AI serves, the owner, the guardrails, the first pilot and what counts as success. The roadmap puts those decisions in order as phases with decision gates; in the AI Capability Rollout Framework that is three 30-day stages. The plan is the working detail inside each phase: tasks, dates, owners and the tools you use. Build them in that order. A plan without the decisions behind it is a schedule, not a strategy.",
+    "source_url": "https://airolloutframework.com/ai-implementation-roadmap"
+  },
+  {
+    "question": "How do you build an AI rollout strategy?",
+    "answer": "Start with outcomes, not tools. Write down the one business problem AI should improve and how you will measure it, name one accountable owner, and set written guardrails for data and review. Then choose one frequent, low-risk workflow for a 30-day controlled pilot, take a baseline before it starts, and agree in advance what result means scale, revise or stop. Expand team by team only after the pilot ends in a documented decision. The AI Capability Rollout Framework sequences these steps across 90 days.",
     "source_url": "https://airolloutframework.com/ai-implementation-roadmap"
   },
   {
@@ -361,7 +381,7 @@
   },
   {
     "question": "How do I join the community?",
-    "answer": "Join our Discord community from airolloutframework.com/community . Anyone can use the open channels. Customers also get members-only channels: email info@airolloutframework.com with your Discord username and the email you purchased with, and we'll add your access, usually within a day.",
+    "answer": "Join our Discord community from airolloutframework.com/community. Anyone can use the open channels. Customers also get members-only channels: email info@airolloutframework.com with your Discord username and the email you purchased with, and we'll add your access, usually within a day.",
     "source_url": "https://airolloutframework.com/contact"
   },
   {
@@ -421,7 +441,7 @@
   },
   {
     "question": "What are examples of AI adoption framework phases?",
-    "answer": "In the AI Capability Rollout Framework, the phases are: Establish Clarity & Guardrails (readiness baseline, governance, named owner), Introduce a Controlled Pilot (one measured workflow with leadership approval), and Measure, Formalize & Scale (before/after results, executive briefing, scaling roadmap). Each phase ends in a written go/no-go decision rather than an open-ended rollout.",
+    "answer": "In the AI Capability Rollout Framework, the phases are: Establish Clarity & Guardrails (readiness baseline, governance, named owner), Controlled Pilot (one measured workflow with leadership approval), and Measure, Formalize & Scale (before/after results, executive briefing, scaling roadmap). Each phase ends in a written go/no-go decision rather than an open-ended rollout.",
     "source_url": "https://airolloutframework.com/ai-adoption-framework"
   },
   {
@@ -656,7 +676,7 @@
   },
   {
     "question": "How long does an AI rollout take for a small organization?",
-    "answer": "A structured AI rollout for a small or mid-sized organization typically takes 60 to 90 days from foundation-setting through a formalized first pilot. The AI Capability Rollout Framework structures this as three phases: Establish Clarity & Guardrails (Days 1–30), Introduce a Controlled Pilot (Days 31–60), and Measure, Formalize & Scale (Days 61–90).",
+    "answer": "A structured AI rollout for a small or mid-sized organization typically takes 60 to 90 days from foundation-setting through a formalized first pilot. The AI Capability Rollout Framework structures this as three phases: Establish Clarity & Guardrails (Days 1–30), Controlled Pilot (Days 31–60), and Measure, Formalize & Scale (Days 61–90).",
     "source_url": "https://airolloutframework.com/resources/ai-rollout-framework-guide/"
   },
   {
@@ -820,6 +840,26 @@
     "source_url": "https://airolloutframework.com/resources/how-to-train-employees-on-ai/"
   },
   {
+    "question": "Does the EU AI Act require AI training for employees?",
+    "answer": "Article 4 requires providers and deployers of AI systems to take measures to support the development of AI literacy among their staff and others who operate AI on their behalf. It does not require them to guarantee a specific level for any individual.",
+    "source_url": "https://airolloutframework.com/resources/is-ai-training-required-for-employees/"
+  },
+  {
+    "question": "Does Article 4 apply to a company outside the EU?",
+    "answer": "It applies to providers and deployers of AI systems covered by the Act, which can include organizations outside the EU whose AI is used in the EU. Whether it applies to you is a question for your counsel.",
+    "source_url": "https://airolloutframework.com/resources/is-ai-training-required-for-employees/"
+  },
+  {
+    "question": "Does a completion certificate prove compliance?",
+    "answer": "No course or certificate is a guarantee of compliance. Organizations usually keep records of the training they provide, and counsel can advise what is enough for your situation.",
+    "source_url": "https://airolloutframework.com/resources/is-ai-training-required-for-employees/"
+  },
+  {
+    "question": "Is this legal advice?",
+    "answer": "No. This page is general information about the EU rule. For your own obligations, ask a qualified lawyer.",
+    "source_url": "https://airolloutframework.com/resources/is-ai-training-required-for-employees/"
+  },
+  {
     "question": "Does Microsoft Copilot give people access to files they couldn’t open before?",
     "answer": "No. Microsoft states that Copilot only surfaces organizational data a person already has at least view permission for. What changes is how easy that content is to find — which is why overshared files and sites become a real risk once Copilot is switched on.",
     "source_url": "https://airolloutframework.com/resources/microsoft-copilot-readiness/"
@@ -853,6 +893,26 @@
     "question": "How long does Microsoft Copilot readiness take?",
     "answer": "It depends on how much content you have and how widely it’s shared, not on a fixed timeline. Tie each rollout phase to clean-up milestones — for example, every high-risk site fixed or restricted before the pilot, and each department’s sites fixed before that department is licensed — rather than to a date.",
     "source_url": "https://airolloutframework.com/resources/microsoft-copilot-readiness/"
+  },
+  {
+    "question": "What is the NIST AI Risk Management Framework?",
+    "answer": "It is voluntary guidance from the U.S. National Institute of Standards and Technology, published as version 1.0 in January 2023. Its core has four functions: Govern, Map, Measure and Manage.",
+    "source_url": "https://airolloutframework.com/resources/nist-ai-rmf-ai-adoption/"
+  },
+  {
+    "question": "Is the AI Capability Rollout Framework NIST compliant?",
+    "answer": "No compliance, certification or endorsement is claimed. The NIST AI RMF is voluntary guidance, and this page shows where the 90-day system lines up with its four functions.",
+    "source_url": "https://airolloutframework.com/resources/nist-ai-rmf-ai-adoption/"
+  },
+  {
+    "question": "Does this cover building or testing AI models?",
+    "answer": "No. The framework is for managers and directors who adopt and run AI. Model-level testing and evaluation are work for teams that build AI systems.",
+    "source_url": "https://airolloutframework.com/resources/nist-ai-rmf-ai-adoption/"
+  },
+  {
+    "question": "Where should a manager start?",
+    "answer": "Start with the free AI Readiness Assessment, then work through the 90-day system one phase at a time.",
+    "source_url": "https://airolloutframework.com/resources/nist-ai-rmf-ai-adoption/"
   },
   {
     "question": "What should I do when half my team uses AI and half refuses?",

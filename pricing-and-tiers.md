@@ -183,8 +183,7 @@ checkout fallback is used automatically — both paths route through
       `/enroll?product=executive-upgrade` all resolve and route to the
       correct product; `/enroll?product=team-training` redirects to
       `/employee-training`
-- [ ] No stray reference to a third-party checkout domain (Gumroad,
-      aibeginner.net, etc.)
+- [ ] No stray reference to a third-party checkout domain
 - [ ] Money-back guarantee language is only claimed for the $99
       framework, the Executive Suite ($299 bundle / $200 upgrade), AI at
       Work seats and the Rollout Pack

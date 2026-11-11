@@ -114,10 +114,11 @@ it accurate automatically.
 
 ## MCP server (agentic access)
 
-A public MCP server exposes 6 tools — framework overview, pricing, FAQ,
-the AI at Work course outline, knowledge-base search, and a real
-server-side AI Readiness Score assessment — callable with no
-authentication. See
+A public MCP server exposes 9 tools — framework overview, pricing, FAQ,
+the AI at Work course outline, knowledge-base search, a real
+server-side AI Readiness Score assessment, a Briefing Kit description, an
+AI at Work seat quote, and an email-me-the-kit tool that acts only on a
+user's explicit request — callable with no authentication. See
 [mcp-capabilities.md](mcp-capabilities.md) for the endpoint, protocol
 details, and real example calls.
 

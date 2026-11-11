@@ -5,8 +5,19 @@ commit history — not a list of every commit, but the milestones that
 changed what the site says, how it's structured, or how discoverable
 it is.
 
+## 2026-11-11
+
+- Homepage: one primary call to action (the free AI Readiness Assessment) is now visible without scrolling on common laptop and phone screens. The page is shorter, and nothing was removed from the site: the problem cards, four pillars, stage diagram, 13-tools list and the 2:49 Lesson 1 preview now live in full on `/framework`, and all nine homepage FAQs remain in the page and its FAQPage schema.
+- The free kit is named the AI Capability Briefing Kit everywhere (it was also called the "AI Readiness Starter Kit" on some pages), and every link to it goes to the signup on `/downloads`.
+- `/ai-implementation-roadmap` answers "What is an AI implementation strategy?", how an AI implementation strategy, plan and roadmap differ, and how to build an AI rollout strategy. The operations readiness guide is retitled "How Operations Teams Measure AI Readiness".
+- The MCP server is version 1.1.1. `initialize` now returns `instructions` (public content, which tools are read-only, and that `email_me_the_kit` is the only tool that writes and needs the user's consent). Tool descriptions open with "Call this when …" and say what each tool returns; tool names, input schemas and behavior are unchanged. Browser-based clients can send the `MCP-Protocol-Version` header (CORS).
+- `docs/qa-dataset.json` rebuilt from every live FAQPage: 211 questions.
+- `docs/visibility-question-set.md` added: the eight questions used each month to check whether AI answer engines name or cite the framework.
+
 ## 2026-10-08
 
+- The `email_me_the_kit` success example in `docs/mcp-capabilities.md` (1.1.0) was captured from production.
+- The MCP server is version 1.1.0 and now has nine tools. New: `get_starter_kit` (describes the free Briefing Kit), `get_seat_quote` (AI at Work seat pricing, read from `api/framework.json`, with co-branding and a cheaper-tier hint) and `email_me_the_kit` (emails the Briefing Kit to an address the user supplies; requires explicit consent and is rate limited). All tools now carry annotations and titles, descriptions say when to use each tool and what it does not do, links to site pages carry `ref=mcp`, and `assess_ai_readiness` adds a `fullAssessment` link to the free assessment. Tool use is counted per day by tool name only.
 - Social sharing: a default 1200×630 share image (`/images/og-default.jpg`) is now set as og:image and twitter:image on 38 indexable pages, and og:site_name is "AI Rollout Framework" on every page.
 - Hardening: Stripe webhook grants access only for paid sessions (and handles delayed-payment events), baseline security headers added site-wide, muted-text contrast raised to WCAG AA.
 
@@ -208,9 +219,8 @@ it is.
 - Added YouTube (`@AIRolloutFramework`) as the 10th entry in the
   Organization `sameAs` array, identical across all pages carrying
   Organization schema.
-- Renamed the GitHub account from `aibeginnergit` to
-  `airolloutframework`; updated the local git remote and repo
-  references.
+- Renamed the GitHub account to `airolloutframework`; updated the
+  local git remote and repo references.
 - Populated the Organization `sameAs` array with 9 external entity
   profiles (Product Hunt, Crunchbase, LinkedIn company page, Indie
   Hackers, Spotify, Apple Podcasts, AlternativeTo, SaaSHub, GitHub) and
@@ -222,7 +232,7 @@ it is.
   "built for mid-market teams, not enterprise IT" section, a readiness-
   vs-maturity-model distinction, and 3 new FAQ entries sourced from
   live "People Also Ask" data.
-- Scrubbed a legacy "AI Beginner" brand reference from the podcast RSS
+- Scrubbed a legacy brand reference from the podcast RSS
   feed (52 episodes) — remapped stale links, fixed a malformed anchor,
   removed invisible characters.
 - Sitewide title-length pass: tightened 15 pages from 75–124 characters
@@ -261,7 +271,6 @@ it is.
 
 ## Earlier
 
-- Initial site build: ported and rebranded from the prior Blair
-  Technology Services structure, with on-domain Stripe checkout, a
-  members area, free preview flow, and the SEO/AEO layer (schema,
-  `llms.txt`, `robots.txt`, markdown-per-page) in place from launch.
+- Initial site build: on-domain Stripe checkout, a members area, a
+  free preview flow, and the SEO/AEO layer (schema, `llms.txt`,
+  `robots.txt`, markdown-per-page) in place from launch.

@@ -76,6 +76,22 @@ and how progress is measured. Organized around decision gates, not
 features: at each stage the organization either advances, revises, or
 stops, based on documented evidence.
 
+## AI implementation strategy
+
+The set of decisions that turns an intention to use AI into a rollout
+someone can actually run: which business problem AI will serve, who
+owns the rollout, what data is in bounds, where the first pilot runs,
+what evidence counts as success, and what happens after the pilot
+works. An AI strategy answers why the organization is using AI; the
+implementation strategy answers how it will happen in practice. The
+roadmap puts those decisions in order as phases with decision gates,
+and the plan is the working detail inside each phase. An AI rollout
+strategy for a team follows the same order: one business problem and a
+measure, one owner, written guardrails, a 30-day controlled pilot with
+a baseline taken first, and expansion only after the pilot ends in a
+documented decision. Full guide:
+https://airolloutframework.com/ai-implementation-roadmap#ai-implementation-strategy
+
 ## AI pilot charter
 
 An AI pilot charter is a one-page document, signed off by leadership

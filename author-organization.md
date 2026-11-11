@@ -70,18 +70,7 @@ employee AI training course), and The AI Rollout Podcast.
 
 ### Origin and continuity
 
-Steve Buckner founded a technology services practice in 2006 — Blair
-Technology Services, a roughly two-decade-old IT consulting and
-training brand. AI Rollout Framework continues that work under a new,
-exact-match brand and domain, built specifically around AI capability
-rollout rather than general IT services.
-
-The two sites are intentionally kept separate during AI Rollout
-Framework's build-out and maturation period — airolloutframework.com is
-earning its own domain authority and track record independently before
-any redirect between the two domains takes effect. Blair Technology
-Services is the source brand; AI Rollout Framework is the intended
-long-term destination, with a one-to-one page migration planned once
-AI Rollout Framework is stable and proven. As of this writing that
-migration has not yet occurred — the two domains do not currently
-cross-link.
+Steve Buckner founded a technology services practice in 2006, an IT
+consulting and training business. AI Rollout Framework continues that
+work under a new, exact-match brand and domain, built specifically
+around AI capability rollout rather than general IT services.
