@@ -25,7 +25,7 @@ Content-Type: application/json
 - **CORS:** `Access-Control-Allow-Origin: *`; allowed request headers
   `Content-Type`, `Mcp-Session-Id`, `MCP-Protocol-Version`
 - **Protocol versions supported:** `2025-06-18`, `2025-03-26`, `2024-11-05`
-- **Server info:** `{ "name": "ai-rollout-framework", "version": "1.1.1" }`
+- **Server info:** `{ "name": "ai-rollout-framework", "version": "1.1.2" }`
 - **Instructions:** `initialize` returns an `instructions` string that tells
   a client the content is public, which tools are read-only, and that
   `email_me_the_kit` is the only tool that writes and needs the user's

@@ -5,6 +5,18 @@ commit history — not a list of every commit, but the milestones that
 changed what the site says, how it's structured, or how discoverable
 it is.
 
+## 2026-11-14
+
+- One guarantee sentence for every product and beside every buy button: "30-day money-back guarantee: email info@airolloutframework.com within 30 days for a full refund." The earlier condition ("if you work through the framework") is gone. `api/framework.json` keeps `guarantee` as the short name and adds `guaranteeTerms` with the full sentence.
+- The Rollout Pack ($899) is for new buyers only and is described once, on `/employee-training`; it no longer appears on `/executive`. `api/framework.json` adds `rolloutPack.eligibility`.
+- AI at Work pricing reads "$39 per seat, dropping to $19 at 50+"; co-branding is $249 below 50 seats and free at 50+.
+- `/contact` answers group pricing with the AI at Work seat tiers and the Executive Suite (the old "$99 per seat" answer is gone).
+- `/executive` has one contents list (`#whats-included`), which now states that Suite buyers get both members-only Discord channels; the homepage and `/framework` link to it. Two overlaps are explained: the vendor assessment checklist vs the Vendor AI Risk Questionnaire, and the Board Briefing Pack vs the Leading Our AI Rollout deck.
+- Steve's background reads "40 years in IT since 1986" everywhere, and `/about` links the public Microsoft Learn transcript.
+- Answer-first headings: "What is shadow AI, and why is it a problem?", "AI policy example", "Copilot readiness assessment".
+- GA4 funnel events: `assessment_start`, `assessment_complete`, `generate_lead`, `briefing_kit_download`, `view_item` (Executive Suite), `enroll_click`, `begin_checkout`, `purchase` (value read from `api/framework.json`). The 404 page now carries GA4 and Clarity.
+- The MCP server is version 1.1.2: its pricing and FAQ data carry the new guarantee and Rollout Pack wording. Tool names, descriptions, schemas and behavior are unchanged.
+
 ## 2026-11-11
 
 - Homepage: one primary call to action (the free AI Readiness Assessment) is now visible without scrolling on common laptop and phone screens. The page is shorter, and nothing was removed from the site: the problem cards, four pillars, stage diagram, 13-tools list and the 2:49 Lesson 1 preview now live in full on `/framework`, and all nine homepage FAQs remain in the page and its FAQPage schema.

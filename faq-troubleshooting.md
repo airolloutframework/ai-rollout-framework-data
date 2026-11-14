@@ -119,8 +119,8 @@ figures.
 **Is there a money-back guarantee?**
 Yes. The $299 Framework + Executive Suite, the $200 Executive Suite
 upgrade, the $99 framework-only option and AI at Work seats all carry
-it: if you don't feel it was worth the investment, contact us within 30
-days for a full refund. No questions, no hoops.
+the same guarantee: email info@airolloutframework.com within 30 days
+for a full refund.
 
 **How is AI at Work different from the Framework?**
 The AI Capability Rollout Framework is a structured 90-day system for
@@ -139,8 +139,8 @@ covers all five in seven short modules (49 minutes in total).
 The tier rate applies to the whole order: $39 for 1 to 14 seats, $29
 for 15 to 49, $19 for 50 or more. So 15 seats ($435) cost less than 14
 ($546). Co-branding is $249 once, free at 50+ seats. Every Executive
-Suite includes one seat, and the Rollout Pack ($899) is the Executive
-Suite plus 25 additional seats, 26 in all.
+Suite includes one seat. For new buyers, the Rollout Pack ($899) is the
+Executive Suite plus 25 additional seats, 26 in all.
 
 **What is the AI Executive Suite and how much does it cost?**
 The AI Executive Suite is everything in the AI Capability Rollout
@@ -159,8 +159,8 @@ available on its own for $99. See
 **Does the Executive Suite include any AI at Work training?**
 Yes. Every Executive Suite includes one seat of AI at Work, our
 49-minute employee course, assigned to you so you can take it before
-rolling it out to your team. Add more seats any time, or choose the
-Rollout Pack.
+rolling it out to your team. Seats for the rest of your team are on
+the AI at Work page.
 
 **How do I join the community?**
 Join our Discord community from airolloutframework.com/community.

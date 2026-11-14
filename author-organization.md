@@ -62,6 +62,9 @@ organizational communications, customer education.
 - SaaSHub: https://www.saashub.com/ai-adoption-for-managers-and-directors-alternatives
 - GitHub: https://github.com/airolloutframework
 - YouTube: https://www.youtube.com/@AIRolloutFramework
+- Glama: https://glama.ai/mcp/connectors/com.airolloutframework/ai-rollout-framework
+- mcpi: https://mcpi.app/servers/ai-capability-rollout-framework
+- mcpbeat: https://mcpbeat.com/mcp-servers/airolloutframework/ai-rollout-framework/
 
 AI Rollout Framework provides structured AI adoption resources for
 managers and directors at small and mid-sized organizations — the

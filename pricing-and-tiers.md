@@ -13,7 +13,10 @@
 > moved to 1–14 / 15–49 / 50+ (co-branding free from 50 seats), every
 > Executive Suite began including one AI at Work seat, the Suite gained the
 > AI Glossary for Leaders and the Leading Our AI Rollout deck, and the
-> community moved to Discord.
+> community moved to Discord. On 2026-11-14 the guarantee became one
+> sentence for every product (no conditions), the Rollout Pack became
+> new-buyers-only and is shown only on `/employee-training`, and AI at Work
+> is described as "$39 per seat, dropping to $19 at 50+".
 > **Include this file in any future pricing-consistency audit sweep**, alongside the HTML pages and
 > `api/framework.json`.
 
@@ -27,7 +30,7 @@ for leaders who need to present AI adoption upward.
 | **Upgrade price** | $200 USD — existing framework owners only, signed in to the members area |
 | **Billing** | One-time payment |
 | **Access** | Lifetime — the complete framework plus the Executive Suite, and future Executive Suite additions |
-| **Guarantee** | 30-day money-back guarantee — same terms as the framework, on the $299 bundle and the $200 upgrade |
+| **Guarantee** | 30-day money-back guarantee: email info@airolloutframework.com within 30 days for a full refund. The same applies to the $299 bundle and the $200 upgrade |
 | **Checkout** | [airolloutframework.com/enroll](https://airolloutframework.com/enroll) (the default) or `/enroll?product=executive`; upgrade: `/enroll?product=executive-upgrade` |
 | **Landing page** | [airolloutframework.com/executive](https://airolloutframework.com/executive) |
 
@@ -90,7 +93,7 @@ or smaller teams.
 | **Price** | $99 USD |
 | **Billing** | One-time payment |
 | **Access** | Lifetime — all current content and future framework updates |
-| **Guarantee** | 30-day money-back guarantee — full refund, no questions asked, if you work through the framework and don't feel it was worth the investment |
+| **Guarantee** | 30-day money-back guarantee: email info@airolloutframework.com within 30 days for a full refund |
 | **Checkout** | [airolloutframework.com/enroll?product=framework](https://airolloutframework.com/enroll?product=framework) |
 | **Landing page** | [airolloutframework.com/framework](https://airolloutframework.com/framework) |
 | **Free entry point** | [AI Readiness Score](https://airolloutframework.com/ai-readiness-score) (free, 3–5 min) |
@@ -109,11 +112,11 @@ completion certificate, and optional captions and transcripts.
 | **15 to 49 seats** | $29 per seat |
 | **50 or more seats** | $19 per seat |
 | **Co-branding** | $249 one time per company; free at 50 or more seats |
-| **Rollout Pack** | $899: the Executive Suite plus 25 additional AI at Work seats, 26 in all including the seat the Suite already includes ($600 more than the Suite; saves $125 against $299 + 25 × $29 = $1,024) |
+| **Rollout Pack** | $899, new buyers only: the Executive Suite plus 25 additional AI at Work seats, 26 in all including the seat the Suite includes; saves $125 against $299 + 25 × $29 = $1,024; shown only on `/employee-training`, and existing Suite owners buy seats instead |
 | **Billing** | One-time payment |
 | **Volume pricing** | The tier rate applies to the whole order: 14 seats = $546; 15 seats = $435; 49 seats = $1,421; 50 seats = $950 |
 | **Order size** | No minimum (a single seat is $39); 1 to 500 seats per order |
-| **Guarantee** | 30-day money-back guarantee on AI at Work seats |
+| **Guarantee** | 30-day money-back guarantee: email info@airolloutframework.com within 30 days for a full refund |
 | **Checkout** | [airolloutframework.com/enroll?product=ai-at-work](https://airolloutframework.com/enroll?product=ai-at-work); Rollout Pack: `/enroll?product=ai-at-work-pack` |
 | **Landing page** | [airolloutframework.com/employee-training](https://airolloutframework.com/employee-training) |
 | **Free entry point** | Module 1 video, its transcript and the My AI Goals Worksheet, open with no email gate |
@@ -143,13 +146,15 @@ The products are complementary, not competing:
 - **Framework only ($99)** is the complete 90-day framework on its own,
   a lighter option for individual managers or smaller teams leading
   AI adoption — governance, pilots and measurement.
-- **AI at Work (from $19 per seat)** is the employee-facing companion:
+- **AI at Work ($39 per seat, dropping to $19 at 50+)** is the employee-facing companion:
   a 49-minute course that teaches every employee what's safe to share,
   how to ask, and how to check AI's work. Leaders set the policy; staff
   learn to work within it.
-- **The Rollout Pack ($899)** is the upgrade path for Executive Suite
-  buyers: the Suite plus 25 additional AI at Work seats, 26 in all
-  including the seat the Suite already includes.
+- **The Rollout Pack ($899)** is for new buyers who want the Executive
+  Suite and team seats in one purchase: the Suite plus 25 additional AI
+  at Work seats, 26 in all including the seat the Suite includes.
+  Existing Suite owners buy seats instead. It appears only on the AI at
+  Work page.
 
 Many organizations use both: the Framework to lead the rollout, AI at
 Work to build team-wide capability.
