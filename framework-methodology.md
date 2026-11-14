@@ -1,4 +1,4 @@
-# The AI Capability Rollout Framework — Methodology
+# The AI Capability Rollout Framework: Methodology
 
 Source: [airolloutframework.com/framework](https://airolloutframework.com/framework)
 
@@ -7,7 +7,7 @@ Source: [airolloutframework.com/framework](https://airolloutframework.com/framew
 The AI Capability Rollout Framework is a structured 90-day AI adoption
 system for managers and directors at small and mid-sized organizations
 (typically 10–2,000 employees). It moves an organization from scattered,
-ungoverned AI use to controlled, measurable capability — built for
+ungoverned AI use to controlled, measurable capability: built for
 professionals responsible for workflows, teams, and outcomes, not for
 AI engineers or developers. No technical background is required.
 
@@ -17,10 +17,10 @@ stage-gated phases.
 ## The three phases
 
 The framework runs across three stage-gated phases over 90 days. Each
-phase closes with a leadership decision gate — the organization does not
+phase closes with a leadership decision gate: the organization does not
 advance to the next phase until the prior phase's work is documented.
 
-### Phase 1 — Establish Clarity & Guardrails (Days 1–30)
+### Phase 1: Establish Clarity & Guardrails (Days 1–30)
 
 Establish the AI readiness baseline, define governance guardrails,
 assign ownership, and brief leadership before any pilot begins.
@@ -29,7 +29,7 @@ Tools used in this phase: AI Readiness Score, Baseline Capability
 Worksheet, Before/After Capability Dashboard, Stage 1 Leadership
 Check-In.
 
-### Phase 2 — Introduce a Controlled Pilot (Days 31–60)
+### Phase 2: Introduce a Controlled Pilot (Days 31–60)
 
 Select a safe, high-value workflow, design a structured pilot, obtain
 leadership approval, and measure results.
@@ -63,7 +63,7 @@ in your charter.
 
 Full guide: [Why Do Most AI Pilots Stall?](https://airolloutframework.com/why-ai-pilots-stall)
 
-### Phase 3 — Measure, Formalize & Scale (Days 61–90)
+### Phase 3: Measure, Formalize & Scale (Days 61–90)
 
 Re-score organizational capability, interpret before/after results,
 prepare an executive briefing, and build a responsible scaling roadmap.
@@ -75,24 +75,24 @@ Roadmap, Tools & Timeline Reference.
 ## The four capability pillars
 
 The three phases are the timeline. The four pillars are the dimensions
-of organizational AI capability the framework builds along the way —
+of organizational AI capability the framework builds along the way
 every phase touches every pillar.
 
-1. **Strategy & Leadership Clarity** — Establish ownership, define why
+1. **Strategy & Leadership Clarity**: Establish ownership, define why
    AI is being introduced, and align leadership before usage expands
    beyond the organization's ability to govern it.
 
-2. **Governance & Risk Awareness** — Build basic guardrails that protect
+2. **Governance & Risk Awareness**: Build basic guardrails that protect
    the organization without creating bureaucratic friction: data
    handling, review habits, and safe experimentation norms.
 
-3. **Workflow Integration** — Identify the highest-value, lowest-risk
+3. **Workflow Integration**: Identify the highest-value, lowest-risk
    workflows for structured piloting, and build the repeatable process
    for expanding from one successful pilot to sustained capability.
 
-4. **Capability & Skill Development** — Build practical confidence
+4. **Capability & Skill Development**: Build practical confidence
    across the team with shared standards and a structured development
-   path — not one-off training sessions that don't stick.
+   path, not one-off training sessions that don't stick.
 
 ## What's included
 
@@ -101,7 +101,7 @@ every phase touches every pillar.
 - AI Readiness Score + Before/After Capability Dashboard
 - Governance and leadership gate documents
 - Workflow Evaluation Checklist and AI Pilot Planning Template
-- AI Capability Pilot Builder — a guided tool that turns a real workflow
+- AI Capability Pilot Builder: a guided tool that turns a real workflow
   into a structured pilot plan (scope, risk tier, guardrails, success
   metrics, ownership, executive-ready summary)
 - 90-Day AI Capability Roadmap
@@ -110,7 +110,7 @@ every phase touches every pillar.
 
 ## Who it's for
 
-Built for managers and directors at small and mid-sized organizations —
+Built for managers and directors at small and mid-sized organizations
 commonly Director of Operations, VP of Operations, Head of Process
 Improvement, or Operational Excellence Manager. No technical or coding
 background is required.

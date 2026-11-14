@@ -2,7 +2,7 @@
 
 Common implementation questions, governance controls, and edge cases.
 All answers below are sourced from FAQPage schema and published content
-already live on airolloutframework.com — cited by source page.
+already live on airolloutframework.com: cited by source page.
 
 ## The AI Readiness Score
 
@@ -16,7 +16,7 @@ instant stage-based report with recommended next steps.
 
 **Who is the assessment designed for?**
 Managers and directors responsible for workflows, teams, and outcomes
-inside structured organizations. It is not a technical exam — no
+inside structured organizations. It is not a technical exam: no
 coding knowledge is required.
 
 **How long does it take?**
@@ -25,7 +25,7 @@ are calculated instantly in the browser.
 
 **How do you measure AI readiness?**
 By scoring the conditions around AI adoption rather than the technology
-itself — leadership clarity, governance, workflow fit, and team
+itself: leadership clarity, governance, workflow fit, and team
 capability.
 
 ## The AI implementation roadmap
@@ -48,8 +48,8 @@ scale responsibly.
 
 *Source: [workplace-ai-policy](https://airolloutframework.com/resources/workplace-ai-policy/)*
 
-**Who should own AI policy — IT, legal, or operations?**
-Operations, in most organizations — whoever is closest to the workflows
+**Who should own AI policy: IT, legal, or operations?**
+Operations, in most organizations: whoever is closest to the workflows
 where AI is actually used. IT advises on tool security, legal advises
 on liability and regulation, leadership signs off on boundaries. But
 one named person, usually in operations, should be accountable for the
@@ -66,7 +66,7 @@ employees are using AI, but because unauthorized use carries real risk:
 sensitive data may be entering tools with no data handling agreement,
 AI outputs may be going unreviewed into decisions or client-facing
 work, and the organization has no visibility into what's happening. The
-solution isn't prohibition — it's structured visibility and governance.
+solution isn't prohibition. It's structured visibility and governance.
 
 ## Pilots: the scaling trap
 
@@ -99,13 +99,13 @@ connect directly to the business outcomes leadership cares about.
 **What is the 30% rule in AI?**
 A rule of thumb that AI should handle roughly 70% of repetitive,
 data-heavy work while people keep the remaining ~30% for judgment,
-oversight, and decisions. It's a guideline, not a regulation — a
+oversight, and decisions. It's a guideline, not a regulation: a
 reminder that AI augments capability rather than removing the human
 accountability the governance layer depends on.
 
 **What is the 10/20/70 rule for AI?**
 AI success comes roughly 10% from algorithms, 20% from technology and
-data, and 70% from people and processes — the clearest case for a
+data, and 70% from people and processes: the clearest case for a
 capability-first, not technology-first, rollout.
 
 ## Product and enrollment
@@ -124,7 +124,7 @@ for a full refund.
 
 **How is AI at Work different from the Framework?**
 The AI Capability Rollout Framework is a structured 90-day system for
-the manager or director leading organization-wide AI adoption —
+the manager or director leading organization-wide AI adoption
 governance, pilots, and measurement. AI at Work is the employee-facing
 companion: a 49-minute course that teaches every employee what's safe
 to share, how to ask, and how to check AI's work, ending with a quiz and

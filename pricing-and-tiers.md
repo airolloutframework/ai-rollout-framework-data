@@ -27,16 +27,16 @@ for leaders who need to present AI adoption upward.
 | | |
 |---|---|
 | **Price** | $299 USD |
-| **Upgrade price** | $200 USD — existing framework owners only, signed in to the members area |
+| **Upgrade price** | $200 USD: existing framework owners only, signed in to the members area |
 | **Billing** | One-time payment |
-| **Access** | Lifetime — the complete framework plus the Executive Suite, and future Executive Suite additions |
+| **Access** | Lifetime: the complete framework plus the Executive Suite, and future Executive Suite additions |
 | **Guarantee** | 30-day money-back guarantee: email info@airolloutframework.com within 30 days for a full refund. The same applies to the $299 bundle and the $200 upgrade |
 | **Checkout** | [airolloutframework.com/enroll](https://airolloutframework.com/enroll) (the default) or `/enroll?product=executive`; upgrade: `/enroll?product=executive-upgrade` |
 | **Landing page** | [airolloutframework.com/executive](https://airolloutframework.com/executive) |
 
 Includes everything in the $99 framework, plus: the Board Briefing Pack
 (editable PowerPoint), the AI ROI & Impact Calculator, the AI Governance
-& Policy Kit (three editable Word templates — not legal advice), and
+& Policy Kit (three editable Word templates, not legal advice), and
 90-day execution roadmaps for Sales, Operations, HR, Marketing and IT
 (HR, Marketing and IT added after launch), and the Executive Audio
 Masterclass (59 minutes of audio in 11 chaptered segments; M4A with
@@ -48,29 +48,29 @@ the rollout; policy-level; added 2026-10-06), one AI at Work seat for the
 buyer (added 2026-10-06; existing Suite owners receive it too), access to
 both members-only channels in the Discord community, and the
 Rollout & Operations Kit (added 2026-09-30): nine templates for running
-the rollout day to day —
+the rollout day to day
 
-1. **AI Data Classification Guide** — Twelve everyday examples showing
+1. **AI Data Classification Guide**: Twelve everyday examples showing
    employees which information can go into which AI tool.
-2. **Enterprise AI Tier Guide** — Why company data belongs on business
+2. **Enterprise AI Tier Guide**: Why company data belongs on business
    and enterprise AI plans, with a platform comparison worksheet and a
    setup checklist.
-3. **Shadow AI Inventory Worksheet** — An employee survey, an IT
+3. **Shadow AI Inventory Worksheet**: An employee survey, an IT
    discovery checklist and a register for finding the AI tools already
    in use.
-4. **AI Policy Rollout Kit** — An announcement email, manager talking
+4. **AI Policy Rollout Kit**: An announcement email, manager talking
    points, an employee FAQ, a one-page quick reference, an
    acknowledgement log and a refresher schedule.
-5. **AI Incident Response Playbook** — First-hour steps, severity
+5. **AI Incident Response Playbook**: First-hour steps, severity
    ratings and containment for five common AI incidents.
-6. **Microsoft Copilot Readiness Guide** — A checklist for fixing
+6. **Microsoft Copilot Readiness Guide**: A checklist for fixing
    oversharing before you turn on Microsoft Copilot (formerly Microsoft
    365 Copilot).
-7. **Vendor AI Risk Questionnaire** — A short questionnaire for software
+7. **Vendor AI Risk Questionnaire**: A short questionnaire for software
    vendors that are adding AI features.
-8. **AI Champions Program Guide** — How to choose, run and recognise a
+8. **AI Champions Program Guide**: How to choose, run and recognise a
    network of department AI champions.
-9. **AI Adoption Scorecard** — A spreadsheet tracking licensed and
+9. **AI Adoption Scorecard**: A spreadsheet tracking licensed and
    active users, policy acknowledgement, training, incidents and
    sentiment, with a check against your ROI assumptions.
 
@@ -92,7 +92,7 @@ or smaller teams.
 |---|---|
 | **Price** | $99 USD |
 | **Billing** | One-time payment |
-| **Access** | Lifetime — all current content and future framework updates |
+| **Access** | Lifetime: all current content and future framework updates |
 | **Guarantee** | 30-day money-back guarantee: email info@airolloutframework.com within 30 days for a full refund |
 | **Checkout** | [airolloutframework.com/enroll?product=framework](https://airolloutframework.com/enroll?product=framework) |
 | **Landing page** | [airolloutframework.com/framework](https://airolloutframework.com/framework) |
@@ -137,7 +137,7 @@ buyer automatically and counts as used.
 The products are complementary, not competing:
 
 - **The Framework + Executive Suite ($299, recommended)** is everything
-  in the Framework, plus the board-level layer — for the leader who also
+  in the Framework, plus the board-level layer: for the leader who also
   has to present the programme upward, to a board or leadership team. It
   adds the investment case, ROI model, AI policy templates, department
   roadmaps, the Rollout & Operations Kit, the Executive Audio
@@ -145,7 +145,7 @@ The products are complementary, not competing:
   deck, and one AI at Work seat for the buyer.
 - **Framework only ($99)** is the complete 90-day framework on its own,
   a lighter option for individual managers or smaller teams leading
-  AI adoption — governance, pilots and measurement.
+  AI adoption: governance, pilots and measurement.
 - **AI at Work ($39 per seat, dropping to $19 at 50+)** is the employee-facing companion:
   a 49-minute course that teaches every employee what's safe to share,
   how to ask, and how to check AI's work. Leaders set the policy; staff
@@ -173,7 +173,7 @@ bundle) redirects to `/employee-training`;
 `/enroll?product=executive` the $299 Executive Suite bundle;
 `/enroll?product=executive-upgrade` the $200 upgrade, which the server
 only sells to a signed-in framework owner). If the embedded Stripe session fails to initialize, a hosted-
-checkout fallback is used automatically — both paths route through
+checkout fallback is used automatically: both paths route through
 `airolloutframework.com`, never a third-party domain.
 
 ## Verification checklist for future audits
@@ -195,5 +195,5 @@ checkout fallback is used automatically — both paths route through
 - [ ] **Yearly (manual):** `priceValidUntil` on the Offers
       (`executive.html`, `framework.html`, `index.html`,
       `employee-training.html`) is 2027-12-31. Push it out a year before
-      it lapses — an expired date can suppress Google's price snippet.
+      it lapses: an expired date can suppress Google's price snippet.
       Deliberately manual: the site has no build step to roll it.

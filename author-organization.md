@@ -2,7 +2,7 @@
 
 Source: [airolloutframework.com/about](https://airolloutframework.com/about)
 
-## Steve Buckner — Creator, AI Capability Rollout Framework
+## Steve Buckner: Creator, AI Capability Rollout Framework
 
 **Role:** Founder; creator of the AI Capability Rollout Framework; host
 of *The AI Rollout Podcast*
@@ -24,7 +24,7 @@ AI governance experience.
 - Microsoft 365 Enterprise Admin Expert
 - Cybersecurity Architect
 - Azure Administrator Associate
-- CCNA — Cisco Certified Network Associate
+- CCNA: Cisco Certified Network Associate
 - CompTIA A+, Network+, Server+
 
 **Areas of expertise:** AI adoption for managers, AI governance,
@@ -32,7 +32,7 @@ structured AI rollout, AI readiness assessment, cloud infrastructure,
 Microsoft Azure, organizational change management, IT operations,
 enterprise technology transitions.
 
-## Kate Buckner — Co-Founder & Content Strategist
+## Kate Buckner: Co-Founder & Content Strategist
 
 **Role:** Co-Founder & Content Strategist, AI Rollout Framework
 
@@ -67,7 +67,7 @@ organizational communications, customer education.
 - mcpbeat: https://mcpbeat.com/mcp-servers/airolloutframework/ai-rollout-framework/
 
 AI Rollout Framework provides structured AI adoption resources for
-managers and directors at small and mid-sized organizations — the
+managers and directors at small and mid-sized organizations: the
 company behind the AI Capability Rollout Framework, AI at Work (the
 employee AI training course), and The AI Rollout Podcast.
 

@@ -1,9 +1,15 @@
 # Changelog
 
 Dated log of major site and content updates. Backfilled from real
-commit history — not a list of every commit, but the milestones that
+commit history, not a list of every commit, but the milestones that
 changed what the site says, how it's structured, or how discoverable
 it is.
+
+## 2026-11-14 (later the same day)
+
+- Em dashes removed site-wide: pages, JSON-LD, Markdown variants, llms files, API JSON, the Q&A dataset, the KB docs and the brochure PDF. Each was replaced by context (comma, colon, period, parentheses, or a hyphen for empty-field placeholders); numeric ranges use en dashes. Podcast episode and video titles that match YouTube and Spotify are unchanged.
+- `/enroll` heading reads "AI Capability Rollout Framework + Executive Suite", its guarantee box uses the same sentence as the rest of the site, and the Executive Suite list includes both members-only Discord channels.
+- The MCP server is version 1.1.3: readiness recommendations and knowledge-base text no longer contain em dashes. Tool names, descriptions, schemas and behavior are unchanged.
 
 ## 2026-11-14
 
@@ -138,7 +144,7 @@ it is.
   and entries in `llms.txt`, `llms-full.txt`, `sitemap.xml`, `rss.xml`,
   the resources hub and [qa-dataset.json](qa-dataset.json).
 - Added the Rollout & Operations Kit to the Executive Suite: nine gated
-  templates for running an AI rollout day to day — AI Data
+  templates for running an AI rollout day to day: AI Data
   Classification Guide, Enterprise AI Tier Guide, Shadow AI Inventory
   Worksheet, AI Policy Rollout Kit, AI Incident Response Playbook,
   Microsoft Copilot Readiness Guide, Vendor AI Risk Questionnaire, AI
@@ -218,13 +224,13 @@ it is.
 - Wired up IndexNow (key file at the site root plus `tools/indexnow.mjs`)
   so a changed page reaches Bing in minutes rather than on crawl schedule.
 - Fixed `MAILERLITE_GROUP_TEAM_TRAINING_PURCHASED`, which was missing a
-  leading digit — team-training purchasers were never being tagged.
+  leading digit: team-training purchasers were never being tagged.
 - Forwarded the branded-training interest form to MailerLite; it was the
   one capture point still posting only to Netlify Forms.
 
 ## 2026-08-20
 
-- Built `/ai-implementation-roadmap` — a new page targeting "AI
+- Built `/ai-implementation-roadmap`: a new page targeting "AI
   implementation roadmap," with the real 90-day/three-phase structure,
   Article + HowTo + FAQPage schema, and reciprocal internal linking
   with `/ai-readiness-score`.
@@ -245,11 +251,11 @@ it is.
   vs-maturity-model distinction, and 3 new FAQ entries sourced from
   live "People Also Ask" data.
 - Scrubbed a legacy brand reference from the podcast RSS
-  feed (52 episodes) — remapped stale links, fixed a malformed anchor,
+  feed (52 episodes): remapped stale links, fixed a malformed anchor,
   removed invisible characters.
 - Sitewide title-length pass: tightened 15 pages from 75–124 characters
   down to 39–50, then a follow-up pass brought the remaining 6
-  borderline pages under 60 characters — every indexable page on the
+  borderline pages under 60 characters: every indexable page on the
   site is now under the 60-character SERP display limit.
 - Refreshed `sitemap.xml` `lastmod` values to real per-page dates.
 - Added a standalone-training disclosure to the $24.99 course area,

@@ -4,7 +4,7 @@ The AI Rollout Framework runs a public MCP (Model Context Protocol) server
 with nine tools: eight read-only tools for public content and calculations,
 and one tool, `email_me_the_kit`, that adds an email address to a mailing
 list and only when the user has explicitly asked for it. It requires no
-account, API key, or authentication — any agent can call it the same way
+account, API key, or authentication: any agent can call it the same way
 it can browse the public website.
 
 This file documents only what the server actually does. The request and
@@ -25,7 +25,7 @@ Content-Type: application/json
 - **CORS:** `Access-Control-Allow-Origin: *`; allowed request headers
   `Content-Type`, `Mcp-Session-Id`, `MCP-Protocol-Version`
 - **Protocol versions supported:** `2025-06-18`, `2025-03-26`, `2024-11-05`
-- **Server info:** `{ "name": "ai-rollout-framework", "version": "1.1.2" }`
+- **Server info:** `{ "name": "ai-rollout-framework", "version": "1.1.3" }`
 - **Instructions:** `initialize` returns an `instructions` string that tells
   a client the content is public, which tools are read-only, and that
   `email_me_the_kit` is the only tool that writes and needs the user's
@@ -49,7 +49,7 @@ Content-Type: application/json
 {"jsonrpc":"2.0","id":1,"result":{"protocolVersion":"2025-06-18","capabilities":{"tools":{}},"serverInfo":{"name":"ai-rollout-framework","version":"1.1.1"},"instructions":"Public information about the AI Capability Rollout Framework, a 90-day AI adoption system for managers and directors at small and mid-sized organizations. No authentication. Every tool returns only published, public content: no scoring internals, answer keys or members-only material. Eight tools are read-only lookups or calculations. assess_ai_readiness scores answers the user gives you and returns a readiness stage and a next step; ask the user each question and never guess answers. get_seat_quote calculates a price and takes no order. email_me_the_kit is the only tool that writes: it adds an address to a mailing list and emails the free Briefing Kit, so call it only after the user has asked for the kit by email, given their address and agreed to be emailed. No tool takes payment; purchases happen on airolloutframework.com."}}
 ```
 
-Follow with `notifications/initialized` (a notification — send it with no
+Follow with `notifications/initialized` (a notification: send it with no
 `id` field; the server returns HTTP 202 with no body), then `tools/list`
 to discover the 9 tools below, then `tools/call` to use one.
 
@@ -143,14 +143,14 @@ Keyword search across the knowledge base (methodology, definitions,
 positioning, changelog). Each result links to the full source document at
 its `/docs/*.md` URL.
 
-**Input:** `{ "query": "<required keyword or phrase>" }` — calling
+**Input:** `{ "query": "<required keyword or phrase>" }`, calling
 without `query` returns a tool-level error (`isError: true`).
 
 ### 6. `assess_ai_readiness`
 
 Runs the real 16-question AI Readiness Score assessment server-side and
 returns a readiness stage, a recommendation and a pointer to the free
-full assessment — the same computation the website's interactive quiz
+full assessment: the same computation the website's interactive quiz
 performs, not a simulation of one.
 
 **Input:** 16 required integer parameters `q1`–`q16`, each 1–5
@@ -158,7 +158,7 @@ performs, not a simulation of one.
 ships in each parameter's schema description; call `tools/list` to
 retrieve all 16.
 
-**Output — exactly four fields, nothing else** (captured for a set of
+**Output: exactly four fields, nothing else** (captured for a set of
 all-4 answers):
 ```json
 {
@@ -173,12 +173,12 @@ all-4 answers):
 ```
 
 Possible `stage` values: **Early Exploration**, **Developing Capability**,
-**Operational Readiness** — the exact three stages used on the live site.
+**Operational Readiness**: the exact three stages used on the live site.
 
 **What this tool deliberately does not return:** a numeric score, a
 per-pillar breakdown, the raw answer total, or any scoring
 weight/threshold. Only the stage name, recommendation text and links cross
-the boundary — per the framework's standing rule against exposing scoring
+the boundary: per the framework's standing rule against exposing scoring
 internals, answer keys, or weights. `tools/test-mcp.mjs` asserts that the
 result has exactly these four fields and no numeric values.
 
@@ -300,7 +300,7 @@ never recorded, and a failure in counting never affects a tool call.
 - **Invalid input to a tool** (out-of-range or missing answers to
   `assess_ai_readiness`, a bad `seats` value, a missing `query`,
   `consent` not true): a normal tool response with `isError: true` and a
-  plain-English message — not a crash.
+  plain-English message, not a crash.
 - **Malformed JSON body:** JSON-RPC parse error `-32700`.
 
 ## What this server does not do
@@ -308,7 +308,7 @@ never recorded, and a failure in counting never affects a tool call.
 - No authentication, no gated or paid content, no payments or checkout.
 - The only write is `email_me_the_kit`, which requires explicit user
   consent and is rate limited.
-- No prompts or resources capabilities are declared — only `tools`.
+- No prompts or resources capabilities are declared: only `tools`.
 - Nothing here reaches beyond what's already public on
   [airolloutframework.com](https://airolloutframework.com), apart from the
   Briefing Kit delivered by email.
