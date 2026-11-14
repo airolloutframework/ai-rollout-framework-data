@@ -56,7 +56,7 @@
   },
   {
     "question": "Do I need technical knowledge or a technical team?",
-    "answer": "No. The framework is intentionally non-technical. It focuses on governance, judgment, workflow analysis, and organizational capability, not engineering or coding. If you can manage a team and lead a project, you can lead this rollout.",
+    "answer": "No. The framework is intentionally non-technical. It focuses on governance, judgment, workflow analysis, and organizational capability, not engineering or coding. If you can manage a team and lead a project, you can lead this rollout. It focuses on governance, workflow fit, leadership alignment and structured implementation, and gives you templates, checklists and discussion guides you can use with your team immediately. No IT team or AI expertise is required.",
     "source_url": "https://airolloutframework.com/framework"
   },
   {
@@ -70,13 +70,18 @@
     "source_url": "https://airolloutframework.com/framework"
   },
   {
+    "question": "What is AI change management?",
+    "answer": "AI change management is the work of moving people from scattered, informal AI use to a way of working that is owned, governed and measured. In practice that means naming one person accountable for AI adoption, setting guardrails before use spreads, piloting one workflow with a human checkpoint before scaling it, and showing leadership measured results against a baseline. The AI Capability Rollout Framework structures that work across 90 days: guardrails and ownership in Stage 1, a controlled pilot in Stage 2, and measurement and a leadership briefing in Stage 3.",
+    "source_url": "https://airolloutframework.com/framework"
+  },
+  {
     "question": "Who is the AI Capability Rollout Framework built for?",
     "answer": "It is built for managers and directors at small and mid-sized organizations (typically 10 to 2,000 employees) who are responsible for workflows, teams, and outcomes. Common titles include Director of Operations, VP of Operations, Head of Process Improvement, and Operational Excellence Manager. It suits leaders who need to introduce AI with structure rather than letting it spread without guardrails. The framework does not require a technical or coding background.",
     "source_url": "https://airolloutframework.com/framework"
   },
   {
-    "question": "How do I roll out AI to my team without a technical background?",
-    "answer": "The AI Capability Rollout Framework is designed specifically for non-technical managers and directors. It focuses on governance, workflow fit, leadership alignment, and structured implementation. The 90-day system provides templates, checklists, and discussion guides you can use with your team immediately. No IT team or AI expertise is required.",
+    "question": "What are good first AI use cases by department?",
+    "answer": "Pick work that is frequent, bounded, reviewed by a person before it is used, measurable within four weeks, and limited to data your approved tools cover. The Executive Suite roadmaps recommend these first pilots: account research briefs from public information for Sales; drafting and updating standard operating procedures for Operations; drafting job descriptions from role templates for HR; turning published content into new formats for Marketing; and knowledge-base articles from resolved, redacted tickets for IT. Each roadmap also lists uses to avoid as a first pilot, such as automated outbound messages or résumé screening.",
     "source_url": "https://airolloutframework.com/framework"
   },
   {

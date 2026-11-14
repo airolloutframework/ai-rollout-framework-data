@@ -5,6 +5,15 @@ commit history, not a list of every commit, but the milestones that
 changed what the site says, how it's structured, or how discoverable
 it is.
 
+## 2026-11-14 (Phase 2: previews, next steps, use cases)
+
+- `/executive` shows samples instead of repeated contents lists: one Board Briefing Pack slide, a redacted first page of the AI Acceptable Use Policy template, the ROI & Impact Calculator's projection with its pre-filled example values, and the AI Adoption Scorecard with sample figures. The nine Rollout & Operations Kit templates are a compact list instead of nine cards. A "first 48 hours" line sits under the headline: the course introduction, the AI Readiness Score as a baseline, and the included 49-minute AI at Work seat.
+- The AI Readiness Score result shows one recommended next step for each stage, with one button, before any email is asked for: the framework for Early Exploration, the Executive Suite for Developing Capability and Operational Readiness. The primary-gap analysis and both PDF reports still unlock with an email.
+- `/framework` answers "What is AI change management?" (in place of "The Real Problem", keeping its four gaps) and adds AI use cases by department: the recommended first pilot, and one use to avoid as a first pilot, from each of the five Executive Suite roadmaps (Sales, Operations, HR, Marketing, IT). "What You Walk Away With" is folded into the 90-day path. Two new FAQs replace two that repeated other answers on the page.
+- The members area opens the Executive Suite with a "Start here" card for the first 48 hours.
+- The MCP server is version 1.1.4: `assess_ai_readiness` returns the new, more specific stage recommendations. Tool names, descriptions and schemas are unchanged.
+- The masterclass sample's AudioObject name is "Executive Audio Masterclass: Sample".
+
 ## 2026-11-14 (later the same day)
 
 - Em dashes removed site-wide: pages, JSON-LD, Markdown variants, llms files, API JSON, the Q&A dataset, the KB docs and the brochure PDF. Each was replaced by context (comma, colon, period, parentheses, or a hyphen for empty-field placeholders); numeric ranges use en dashes. Podcast episode and video titles that match YouTube and Spotify are unchanged.
