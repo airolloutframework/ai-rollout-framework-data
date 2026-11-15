@@ -119,8 +119,8 @@ figures.
 **Is there a money-back guarantee?**
 Yes. The $299 Framework + Executive Suite, the $200 Executive Suite
 upgrade, the $99 framework-only option and AI at Work seats all carry
-the same guarantee: email info@airolloutframework.com within 30 days
-for a full refund.
+the same 30-day money-back guarantee: email info@airolloutframework.com
+within 30 days for a full refund.
 
 **How is AI at Work different from the Framework?**
 The AI Capability Rollout Framework is a structured 90-day system for
@@ -155,6 +155,15 @@ $299 one-time, with lifetime access and a 30-day money-back guarantee.
 Existing framework owners can upgrade for $200. The framework is also
 available on its own for $99. See
 [pricing-and-tiers.md](pricing-and-tiers.md).
+
+**Can Executive Suite members book time with Steve?**
+Yes. Suite members can book a Rollout Strategy Session: a 60-minute
+one-to-one video call with Steve Buckner to work through their rollout
+plan, pilots or board case. It costs $150 per session, one-time, and is
+bought and booked in the members area after signing in; it is not sold
+separately. Sessions are limited to four a month, one a day. If you can't book a
+time within 30 days of paying, or you cancel at least 24 hours before
+the session, you get a full refund.
 
 **Does the Executive Suite include any AI at Work training?**
 Yes. Every Executive Suite includes one seat of AI at Work, our

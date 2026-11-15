@@ -25,7 +25,7 @@ Content-Type: application/json
 - **CORS:** `Access-Control-Allow-Origin: *`; allowed request headers
   `Content-Type`, `Mcp-Session-Id`, `MCP-Protocol-Version`
 - **Protocol versions supported:** `2025-06-18`, `2025-03-26`, `2024-11-05`
-- **Server info:** `{ "name": "ai-rollout-framework", "version": "1.1.4" }`
+- **Server info:** `{ "name": "ai-rollout-framework", "version": "1.1.5" }`
 - **Instructions:** `initialize` returns an `instructions` string that tells
   a client the content is public, which tools are read-only, and that
   `email_me_the_kit` is the only tool that writes and needs the user's
@@ -46,7 +46,7 @@ Content-Type: application/json
 {"jsonrpc":"2.0","id":1,"method":"initialize","params":{"protocolVersion":"2025-06-18","clientInfo":{"name":"example-client","version":"1.0"}}}
 
 // Response
-{"jsonrpc":"2.0","id":1,"result":{"protocolVersion":"2025-06-18","capabilities":{"tools":{}},"serverInfo":{"name":"ai-rollout-framework","version":"1.1.1"},"instructions":"Public information about the AI Capability Rollout Framework, a 90-day AI adoption system for managers and directors at small and mid-sized organizations. No authentication. Every tool returns only published, public content: no scoring internals, answer keys or members-only material. Eight tools are read-only lookups or calculations. assess_ai_readiness scores answers the user gives you and returns a readiness stage and a next step; ask the user each question and never guess answers. get_seat_quote calculates a price and takes no order. email_me_the_kit is the only tool that writes: it adds an address to a mailing list and emails the free Briefing Kit, so call it only after the user has asked for the kit by email, given their address and agreed to be emailed. No tool takes payment; purchases happen on airolloutframework.com."}}
+{"jsonrpc":"2.0","id":1,"result":{"protocolVersion":"2025-06-18","capabilities":{"tools":{}},"serverInfo":{"name":"ai-rollout-framework","version":"1.1.5"},"instructions":"Public information about the AI Capability Rollout Framework, a 90-day AI adoption system for managers and directors at small and mid-sized organizations. No authentication. Every tool returns only published, public content: no scoring internals, answer keys or members-only material. Eight tools are read-only lookups or calculations. assess_ai_readiness scores answers the user gives you and returns a readiness stage and a next step; ask the user each question and never guess answers. get_seat_quote calculates a price and takes no order. email_me_the_kit is the only tool that writes: it adds an address to a mailing list and emails the free Briefing Kit, so call it only after the user has asked for the kit by email, given their address and agreed to be emailed. No tool takes payment; purchases happen on airolloutframework.com. No tool books or requests a consultation: the Rollout Strategy Session appears in get_pricing for information only, because it is sold to signed-in Executive Suite members in the members area."}}
 ```
 
 Follow with `notifications/initialized` (a notification: send it with no
@@ -102,7 +102,11 @@ the order the site presents them: the Framework + Executive Suite bundle
 (the recommended offer, with its upgrade price for existing framework
 owners), the framework on its own, and AI at Work (per-seat tiers,
 co-branding and the Rollout Pack). `recommendedOffer` names the
-recommended product's key.
+recommended product's key. `executiveSuite.strategySession` lists the
+$150 Rollout Strategy Session (60 minutes, Executive Suite members only)
+for information: it carries no booking link and no tool books or
+requests one, which keeps the 2026-10-08 decision not to add a
+consultation-request tool. Members buy and book it in the members area.
 
 Everything comes from `api/framework.json`; nothing is retyped. With the
 `ref=mcp` parameters removed, `executiveSuite`, `framework.price` and
@@ -164,7 +168,7 @@ all-4 answers):
 {
   "stage": "Operational Readiness",
   "recommendation": "Formalize what works before you expand it. Document your pilot results, put one AI policy in place for every team, and take an investment case to leadership before scaling. ...",
-  "learnMore": "https://airolloutframework.com/framework?ref=mcp",
+  "learnMore": "https://airolloutframework.com/executive?ref=mcp",
   "fullAssessment": {
     "url": "https://airolloutframework.com/ai-readiness-score?ref=mcp",
     "note": "The free full assessment on the site takes 3-5 minutes and includes a personalized PDF."
@@ -174,6 +178,8 @@ all-4 answers):
 
 Possible `stage` values: **Early Exploration**, **Developing Capability**,
 **Operational Readiness**: the exact three stages used on the live site.
+`learnMore` follows the site's per-stage next step (1.1.5 and later):
+`/framework` for Early Exploration, `/executive` for the other two.
 
 **What this tool deliberately does not return:** a numeric score, a
 per-pillar breakdown, the raw answer total, or any scoring

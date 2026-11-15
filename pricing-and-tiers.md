@@ -16,7 +16,9 @@
 > community moved to Discord. On 2026-11-14 the guarantee became one
 > sentence for every product (no conditions), the Rollout Pack became
 > new-buyers-only and is shown only on `/employee-training`, and AI at Work
-> is described as "$39 per seat, dropping to $19 at 50+".
+> is described as "$39 per seat, dropping to $19 at 50+". Also on
+> 2026-11-14 the $150 Rollout Strategy Session was added for Executive
+> Suite members only.
 > **Include this file in any future pricing-consistency audit sweep**, alongside the HTML pages and
 > `api/framework.json`.
 
@@ -28,6 +30,7 @@ for leaders who need to present AI adoption upward.
 |---|---|
 | **Price** | $299 USD |
 | **Upgrade price** | $200 USD: existing framework owners only, signed in to the members area |
+| **Session price** | $150 USD: the Rollout Strategy Session (see below), Executive Suite members only |
 | **Billing** | One-time payment |
 | **Access** | Lifetime: the complete framework plus the Executive Suite, and future Executive Suite additions |
 | **Guarantee** | 30-day money-back guarantee: email info@airolloutframework.com within 30 days for a full refund. The same applies to the $299 bundle and the $200 upgrade |
@@ -83,6 +86,21 @@ rollout)", with the topic list in `api/framework.json`.
 
 There is no standalone Executive-only product: it is a bundle upgrade,
 not a third tier.
+
+### Rollout Strategy Session (Executive Suite members only)
+
+Added 2026-11-14. A 60-minute one-to-one video call (Google Meet) with
+Steve Buckner to work through the member's AI rollout plan. $150 USD,
+one-time, per session. Sold only to signed-in Executive Suite members
+in the members area; it is not on the homepage pricing cards and is not
+sold separately. Limited to four sessions a month, one a day. Booking opens in the
+members area after payment; the booking link is never published.
+Refund terms: full refund if the member cannot book a time within 30
+days of paying, or cancels at least 24 hours before the session. Use the
+name "Rollout Strategy Session" everywhere (never "Check-in", which is
+the Stage 1 Leadership Check-In tool). Checkout:
+`/enroll?product=strategy-session` (the server refuses anyone who is not
+a signed-in Suite member).
 
 ## AI Capability Rollout Framework (Framework only)
 The 90-day framework on its own: a lighter option for individual managers
@@ -172,7 +190,9 @@ $899 Rollout Pack; `/enroll?product=team-training` (the retired Learning Path
 bundle) redirects to `/employee-training`;
 `/enroll?product=executive` the $299 Executive Suite bundle;
 `/enroll?product=executive-upgrade` the $200 upgrade, which the server
-only sells to a signed-in framework owner). If the embedded Stripe session fails to initialize, a hosted-
+only sells to a signed-in framework owner;
+`/enroll?product=strategy-session` the $150 Rollout Strategy Session,
+which the server only sells to a signed-in Executive Suite member). If the embedded Stripe session fails to initialize, a hosted-
 checkout fallback is used automatically: both paths route through
 `airolloutframework.com`, never a third-party domain.
 
